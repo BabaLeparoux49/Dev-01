@@ -57,3 +57,31 @@ UFrais/
     Services/       flux live + historique
     Views/          écrans et composants
 ```
+
+## Graphify (graphe de connaissances)
+
+Ce dépôt inclut [Graphify](https://github.com/Graphify-Labs/graphify) pour cartographier le code Swift et faciliter la navigation dans Cursor.
+
+**Installation locale** (Mac ou Linux) :
+
+```bash
+uv tool install graphifyy
+graphify cursor install --project
+graphify . --code-only && graphify cluster-only .
+```
+
+**Utilisation dans Cursor** : tapez `/graphify .` ou interrogez le graphe :
+
+```bash
+graphify query "comment fonctionne le calculateur de marge ?"
+graphify path "LiveFeedService" "MarginBreakdown"
+graphify explain "VATRate"
+```
+
+Artefacts générés dans `graphify-out/` :
+
+- `graph.html` — visualisation interactive
+- `GRAPH_REPORT.md` — synthèse architecture
+- `graph.json` — graphe complet
+
+Après modification du code : `graphify update .` (AST local, sans clé API).
