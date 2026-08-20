@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T17:20:00Z",
+  "updatedAt": "2026-08-20T17:35:00Z",
   "headline": "Ce qui cartonne aujourd'hui en frais",
   "sourceNote": "Signaux web, réseaux sociaux, presse food et sorties marques nationales — pas les ventes magasin.",
   "items": [
@@ -90,8 +90,8 @@
         "DIY"
       ],
       "category": "vogue",
-      "barcode": "8712566246496",
-      "imageURL": "https://images.openfoodfacts.org/images/products/871/256/624/6496/front_fr.140.400.jpg"
+      "barcode": "8712566246526",
+      "imageURL": "https://images.openfoodfacts.org/images/products/871/256/624/6526/front_fr.142.400.jpg"
     },
     {
       "id": "boeuf-mature",
@@ -202,8 +202,8 @@
         "impulse"
       ],
       "category": "vogue",
-      "barcode": "3608580789758",
-      "imageURL": "https://images.openfoodfacts.org/images/products/360/858/078/9758/front_fr.80.400.jpg"
+      "barcode": "3770008780101",
+      "imageURL": "https://images.openfoodfacts.org/images/products/377/000/878/0101/front_fr.4.400.jpg"
     },
     {
       "id": "charcut-superieure",
