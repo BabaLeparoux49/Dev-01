@@ -2,6 +2,7 @@ import SwiftUI
 
 @main
 struct UFraisApp: App {
+    @Environment(\.scenePhase) private var scenePhase
     @StateObject private var trends = TrendFeedService()
     @StateObject private var history = HistoryStore()
     @State private var showSplash = true
@@ -28,6 +29,10 @@ struct UFraisApp: App {
                 withAnimation(.easeInOut(duration: 0.55)) {
                     showSplash = false
                 }
+            }
+            .onChange(of: scenePhase) { _, phase in
+                guard phase == .active else { return }
+                Task { await trends.refreshIfNeededForToday() }
             }
         }
     }

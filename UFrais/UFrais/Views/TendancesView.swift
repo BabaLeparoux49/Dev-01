@@ -31,6 +31,9 @@ struct TendancesView: View {
             .uSurface()
             .toolbar(.hidden, for: .navigationBar)
             .refreshable { await trends.refresh() }
+            .task {
+                await trends.refreshIfNeededForToday()
+            }
         }
     }
 
@@ -59,7 +62,9 @@ struct TendancesView: View {
             }
 
             HStack(spacing: 8) {
-                Image(systemName: "globe")
+                Image(systemName: "calendar")
+                Text("Chaque jour")
+                Text("·")
                 if let date = trends.updatedAt {
                     Text(date, format: .dateTime.day().month().hour().minute())
                 } else {

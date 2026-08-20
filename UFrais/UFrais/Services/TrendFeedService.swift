@@ -2,6 +2,7 @@ import Foundation
 import Combine
 
 /// Charge les produits en vogue du jour (web / réseaux), sans chiffres magasin.
+/// Synchronisation automatique : au plus une fois par jour (fuseau Europe/Paris).
 @MainActor
 final class TrendFeedService: ObservableObject {
     @Published var items: [TrendingProduct] = []
@@ -12,11 +13,10 @@ final class TrendFeedService: ObservableObject {
     @Published var lastError: String?
     @Published var feedOrigin = "Cache local"
 
-    /// JSON hébergé sur le dépôt — mis à jour côté web sans republier l'app.
-    /// Branche images prioritaire tant que le correctif fruits rouges n'est pas sur main.
+    /// JSON hébergé sur le dépôt — mis à jour chaque jour via GitHub Actions.
     static let remoteCandidates: [URL] = [
-        "https://raw.githubusercontent.com/BabaLeparoux49/Dev-01/cursor/tendances-images-nouveautes-2bfd/UFrais/UFrais/Data/trends.json",
         "https://raw.githubusercontent.com/BabaLeparoux49/Dev-01/main/UFrais/UFrais/Data/trends.json",
+        "https://raw.githubusercontent.com/BabaLeparoux49/Dev-01/cursor/tendances-images-nouveautes-2bfd/UFrais/UFrais/Data/trends.json",
         "https://raw.githubusercontent.com/BabaLeparoux49/Dev-01/cursor/ufrais-super-u-ligne-2bfd/UFrais/UFrais/Data/trends.json"
     ].compactMap(URL.init(string:))
 
@@ -27,6 +27,8 @@ final class TrendFeedService: ObservableObject {
     ].compactMap { $0 }
 
     private let cacheKey = "ufrais.trends.cache.v3"
+    private let lastFetchDayKey = "ufrais.trends.lastFetchDay.paris"
+
     private let decoder: JSONDecoder = {
         let d = JSONDecoder()
         d.dateDecodingStrategy = .iso8601
@@ -40,13 +42,29 @@ final class TrendFeedService: ObservableObject {
         return e
     }()
 
+    private static var parisCalendar: Calendar {
+        var calendar = Calendar(identifier: .gregorian)
+        calendar.timeZone = TimeZone(identifier: "Europe/Paris") ?? .gmt
+        return calendar
+    }
+
+    /// Clé jour civil Paris, ex. `2026-08-21`.
+    var todayParisKey: String {
+        Self.dayKey(for: Date())
+    }
+
+    /// `true` si aucune synchro réussie aujourd’hui (Paris).
+    var needsDailyRefresh: Bool {
+        UserDefaults.standard.string(forKey: lastFetchDayKey) != todayParisKey
+    }
+
     init() {
         if let cached = loadCache() {
             apply(cached, origin: "Dernière synchro")
         } else if let bundled = loadBundled() {
             apply(bundled, origin: "Packagé dans l'app")
         }
-        Task { await refresh() }
+        Task { await refreshIfNeededForToday() }
     }
 
     var topItems: [TrendingProduct] {
@@ -62,6 +80,12 @@ final class TrendFeedService: ObservableObject {
         return base.filter { $0.rayon == rayon }
     }
 
+    /// Rafraîchit seulement si le jour Paris a changé (ou si le fil est vide).
+    func refreshIfNeededForToday() async {
+        guard needsDailyRefresh || items.isEmpty else { return }
+        await refresh()
+    }
+
     func refresh() async {
         isLoading = true
         lastError = nil
@@ -72,6 +96,7 @@ final class TrendFeedService: ObservableObject {
             let payload = try decoder.decode(TrendsPayload.self, from: data)
             apply(payload, origin: "Web · tendances du jour")
             saveCache(payload)
+            markFetchedToday()
             await enrichProductImages()
             await enrichWithRSSHints()
         } catch {
@@ -102,6 +127,19 @@ final class TrendFeedService: ObservableObject {
     }
 
     // MARK: - Private
+
+    private func markFetchedToday() {
+        UserDefaults.standard.set(todayParisKey, forKey: lastFetchDayKey)
+    }
+
+    private static func dayKey(for date: Date) -> String {
+        let formatter = DateFormatter()
+        formatter.calendar = parisCalendar
+        formatter.timeZone = parisCalendar.timeZone
+        formatter.locale = Locale(identifier: "en_US_POSIX")
+        formatter.dateFormat = "yyyy-MM-dd"
+        return formatter.string(from: date)
+    }
 
     private func apply(_ payload: TrendsPayload, origin: String) {
         items = payload.items
