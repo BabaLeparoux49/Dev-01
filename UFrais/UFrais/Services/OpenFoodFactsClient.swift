@@ -65,12 +65,15 @@ enum OpenFoodFactsClient {
             ?? product.productName?.nilIfEmpty
             ?? "Produit \(cleaned)"
 
+        let image = product.imageFrontURL?.nilIfEmpty
+            ?? product.imageFrontSmallURL?.nilIfEmpty
+
         return ScannedProduct(
             barcode: cleaned,
             name: name,
             brand: product.brands?.nilIfEmpty,
             quantity: product.quantity?.nilIfEmpty,
-            imageURL: product.imageFrontSmallURL.flatMap(URL.init(string:)),
+            imageURL: image.flatMap(URL.init(string:)),
             categories: product.categories?.nilIfEmpty
         )
     }
@@ -85,6 +88,7 @@ enum OpenFoodFactsClient {
         var productNameFr: String?
         var brands: String?
         var quantity: String?
+        var imageFrontURL: String?
         var imageFrontSmallURL: String?
         var categories: String?
 
@@ -92,6 +96,7 @@ enum OpenFoodFactsClient {
             case productName = "product_name"
             case productNameFr = "product_name_fr"
             case brands, quantity, categories
+            case imageFrontURL = "image_front_url"
             case imageFrontSmallURL = "image_front_small_url"
         }
     }

@@ -70,6 +70,28 @@ enum TrendHeat: String, Codable, CaseIterable {
     }
 }
 
+/// Filtre principal Tendances : buzz web vs nouveautés marques nationales.
+enum TrendCategory: String, Codable, CaseIterable, Identifiable, Hashable {
+    case vogue
+    case nouveaute
+
+    var id: String { rawValue }
+
+    var title: String {
+        switch self {
+        case .vogue: return "En vogue"
+        case .nouveaute: return "Nouveautés"
+        }
+    }
+
+    var symbol: String {
+        switch self {
+        case .vogue: return "flame.fill"
+        case .nouveaute: return "sparkles"
+        }
+    }
+}
+
 struct TrendSource: Identifiable, Codable, Hashable {
     var id: String { url }
     var title: String
@@ -88,6 +110,18 @@ struct TrendingProduct: Identifiable, Codable, Hashable {
     var rayonTip: String
     var sources: [TrendSource]
     var tags: [String]
+    /// `vogue` (défaut) ou `nouveaute` — marques nationales / sorties rayon.
+    var category: TrendCategory?
+    /// URL image produit (Open Food Facts ou CDN).
+    var imageURL: String?
+    /// EAN pour résoudre / rafraîchir l'image via Open Food Facts.
+    var barcode: String?
+
+    var resolvedCategory: TrendCategory { category ?? .vogue }
+
+    var resolvedImageURL: URL? {
+        imageURL.flatMap(URL.init(string:))
+    }
 }
 
 struct TrendsPayload: Codable {

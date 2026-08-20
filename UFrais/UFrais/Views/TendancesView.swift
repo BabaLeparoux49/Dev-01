@@ -2,11 +2,12 @@ import SwiftUI
 
 struct TendancesView: View {
     @EnvironmentObject private var trends: TrendFeedService
+    @State private var categoryFilter: TrendCategory = .vogue
     @State private var rayonFilter: RayonKind?
     @State private var appear = false
 
     var filtered: [TrendingProduct] {
-        trends.items(in: rayonFilter)
+        trends.items(in: rayonFilter, category: categoryFilter)
     }
 
     var body: some View {
@@ -14,6 +15,7 @@ struct TendancesView: View {
             ScrollView(showsIndicators: false) {
                 VStack(spacing: 16) {
                     header
+                    categoryPicker
                     filters
                     if let error = trends.lastError {
                         Text(error)
@@ -38,7 +40,7 @@ struct TendancesView: View {
                 VStack(alignment: .leading, spacing: 4) {
                     Text("Tendances")
                         .font(UFont.display(30))
-                    Text(trends.headline)
+                    Text(headerSubtitle)
                         .font(UFont.body(14, weight: .medium))
                         .foregroundStyle(UColor.ardoise)
                 }
@@ -86,6 +88,39 @@ struct TendancesView: View {
         }
     }
 
+    private var headerSubtitle: String {
+        switch categoryFilter {
+        case .vogue:
+            return trends.headline
+        case .nouveaute:
+            return "Marques nationales connues — sorties & références rayon"
+        }
+    }
+
+    private var categoryPicker: some View {
+        HStack(spacing: 8) {
+            ForEach(TrendCategory.allCases) { category in
+                Button {
+                    withAnimation(.snappy) {
+                        categoryFilter = category
+                        rayonFilter = nil
+                    }
+                } label: {
+                    Label(category.title, systemImage: category.symbol)
+                        .font(UFont.body(13, weight: .semibold))
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 10)
+                        .foregroundStyle(categoryFilter == category ? .white : UColor.bleuSignature)
+                        .background(
+                            RoundedRectangle(cornerRadius: 14, style: .continuous)
+                                .fill(categoryFilter == category ? UColor.bleuSignature : UColor.bleuSignature.opacity(0.12))
+                        )
+                }
+                .buttonStyle(.plain)
+            }
+        }
+    }
+
     private var filters: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 8) {
@@ -117,13 +152,23 @@ struct TendancesView: View {
 
     private var list: some View {
         LazyVStack(spacing: 12) {
-            ForEach(Array(filtered.enumerated()), id: \.element.id) { index, item in
-                NavigationLink {
-                    TrendDetailView(productID: item.id)
-                } label: {
-                    TrendCard(product: item, rank: index + 1)
+            if filtered.isEmpty {
+                ContentUnavailableView(
+                    categoryFilter == .nouveaute ? "Aucune nouveauté" : "Aucune tendance",
+                    systemImage: categoryFilter.symbol,
+                    description: Text("Tire pour actualiser le fil.")
+                )
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, 40)
+            } else {
+                ForEach(Array(filtered.enumerated()), id: \.element.id) { index, item in
+                    NavigationLink {
+                        TrendDetailView(productID: item.id)
+                    } label: {
+                        TrendCard(product: item, rank: index + 1)
+                    }
+                    .buttonStyle(.plain)
                 }
-                .buttonStyle(.plain)
             }
         }
         .animation(.spring(response: 0.4, dampingFraction: 0.85), value: filtered.map(\.id))
@@ -139,16 +184,29 @@ struct TrendCard: View {
             ZStack {
                 RoundedRectangle(cornerRadius: 16, style: .continuous)
                     .fill(product.rayon.tint.opacity(0.14))
-                VStack(spacing: 2) {
-                    Text("\(rank)")
-                        .font(UFont.display(18))
-                        .foregroundStyle(product.rayon.tint)
-                    Image(systemName: product.rayon.symbol)
-                        .font(.caption.weight(.bold))
-                        .foregroundStyle(product.rayon.tint)
+                if let url = product.resolvedImageURL {
+                    AsyncImage(url: url) { phase in
+                        switch phase {
+                        case .success(let image):
+                            image
+                                .resizable()
+                                .scaledToFill()
+                        case .failure:
+                            rankFallback
+                        case .empty:
+                            ProgressView()
+                                .controlSize(.small)
+                        @unknown default:
+                            rankFallback
+                        }
+                    }
+                    .frame(width: 64, height: 72)
+                    .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                } else {
+                    rankFallback
                 }
             }
-            .frame(width: 54, height: 64)
+            .frame(width: 64, height: 72)
 
             VStack(alignment: .leading, spacing: 6) {
                 HStack {
@@ -169,8 +227,13 @@ struct TrendCard: View {
                     .lineLimit(2)
 
                 HStack(spacing: 8) {
-                    Label("Buzz \(product.buzzScore)", systemImage: "flame.fill")
+                    if product.resolvedCategory == .nouveaute {
+                        Label("Marque", systemImage: "sparkles")
+                    } else {
+                        Label("Buzz \(product.buzzScore)", systemImage: "flame.fill")
+                    }
                     Text(product.platforms.prefix(2).joined(separator: " · "))
+                        .lineLimit(1)
                 }
                 .font(UFont.body(11, weight: .semibold))
                 .foregroundStyle(UColor.bleuSignature)
@@ -183,6 +246,17 @@ struct TrendCard: View {
         .padding(12)
         .background(.white, in: RoundedRectangle(cornerRadius: 22, style: .continuous))
         .shadow(color: product.rayon.tint.opacity(0.1), radius: 12, y: 6)
+    }
+
+    private var rankFallback: some View {
+        VStack(spacing: 2) {
+            Text("\(rank)")
+                .font(UFont.display(18))
+                .foregroundStyle(product.rayon.tint)
+            Image(systemName: product.rayon.symbol)
+                .font(.caption.weight(.bold))
+                .foregroundStyle(product.rayon.tint)
+        }
     }
 }
 
@@ -211,19 +285,48 @@ struct TrendDetailView: View {
         ScrollView(showsIndicators: false) {
             VStack(spacing: 16) {
                 ZStack(alignment: .bottomLeading) {
-                    RoundedRectangle(cornerRadius: 28, style: .continuous)
-                        .fill(
-                            LinearGradient(
-                                colors: [product.rayon.tint, product.rayon.tint.opacity(0.7), UColor.bleuSignature],
-                                startPoint: .topLeading,
-                                endPoint: .bottomTrailing
-                            )
+                    Group {
+                        if let url = product.resolvedImageURL {
+                            AsyncImage(url: url) { phase in
+                                switch phase {
+                                case .success(let image):
+                                    image
+                                        .resizable()
+                                        .scaledToFill()
+                                default:
+                                    heroGradient(product)
+                                }
+                            }
+                        } else {
+                            heroGradient(product)
+                        }
+                    }
+                    .frame(height: 220)
+                    .frame(maxWidth: .infinity)
+                    .clipped()
+                    .overlay {
+                        LinearGradient(
+                            colors: [.black.opacity(0.05), .black.opacity(0.55)],
+                            startPoint: .top,
+                            endPoint: .bottom
                         )
-                        .frame(height: 168)
+                    }
+                    .clipShape(RoundedRectangle(cornerRadius: 28, style: .continuous))
+
                     VStack(alignment: .leading, spacing: 6) {
-                        Text(product.rayon.title.uppercased())
-                            .font(UFont.body(11, weight: .heavy))
-                            .foregroundStyle(.white.opacity(0.8))
+                        HStack(spacing: 8) {
+                            Text(product.rayon.title.uppercased())
+                                .font(UFont.body(11, weight: .heavy))
+                                .foregroundStyle(.white.opacity(0.8))
+                            if product.resolvedCategory == .nouveaute {
+                                Text("NOUVEAUTÉ")
+                                    .font(UFont.body(10, weight: .heavy))
+                                    .foregroundStyle(.white)
+                                    .padding(.horizontal, 8)
+                                    .padding(.vertical, 3)
+                                    .background(UColor.rouge.opacity(0.9), in: Capsule())
+                            }
+                        }
                         Text(product.name)
                             .font(UFont.display(24))
                             .foregroundStyle(.white)
@@ -239,15 +342,29 @@ struct TrendDetailView: View {
                     Label(product.heat.label, systemImage: "flame.fill")
                         .foregroundStyle(product.heat.tint)
                     Spacer()
-                    Text("Buzz \(product.buzzScore)/100")
+                    Text(product.resolvedCategory == .nouveaute ? "Score \(product.buzzScore)/100" : "Buzz \(product.buzzScore)/100")
                         .font(UFont.body(15, weight: .bold))
                         .foregroundStyle(UColor.encre)
                 }
                 .font(UFont.body(14, weight: .semibold))
                 .uCard()
 
+                if let barcode = product.barcode, !barcode.isEmpty {
+                    HStack {
+                        Image(systemName: "barcode")
+                        Text("EAN \(barcode)")
+                            .font(UFont.body(13, weight: .semibold))
+                        Spacer()
+                        Text(product.rayon.title)
+                            .font(UFont.body(12, weight: .medium))
+                            .foregroundStyle(UColor.ardoise)
+                    }
+                    .foregroundStyle(UColor.bleuSignature)
+                    .uCard()
+                }
+
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("Pourquoi c'est en vogue")
+                    Text(product.resolvedCategory == .nouveaute ? "Pourquoi c'est intéressant" : "Pourquoi c'est en vogue")
                         .font(UFont.body(14, weight: .semibold))
                     Text(product.why)
                         .font(UFont.body(14))
@@ -267,7 +384,7 @@ struct TrendDetailView: View {
                 .uCard()
 
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("Plateformes")
+                    Text(product.resolvedCategory == .nouveaute ? "Repères" : "Plateformes")
                         .font(UFont.body(14, weight: .semibold))
                     FlowPlatforms(platforms: product.platforms)
                     if !product.tags.isEmpty {
@@ -306,6 +423,14 @@ struct TrendDetailView: View {
         .onAppear {
             withAnimation(.spring(response: 0.55, dampingFraction: 0.8)) { appear = true }
         }
+    }
+
+    private func heroGradient(_ product: TrendingProduct) -> some View {
+        LinearGradient(
+            colors: [product.rayon.tint, product.rayon.tint.opacity(0.7), UColor.bleuSignature],
+            startPoint: .topLeading,
+            endPoint: .bottomTrailing
+        )
     }
 }
 

@@ -24,7 +24,7 @@ final class TrendFeedService: ObservableObject {
         URL(string: "https://www.lsa-conso.fr/rss")
     ].compactMap { $0 }
 
-    private let cacheKey = "ufrais.trends.cache.v1"
+    private let cacheKey = "ufrais.trends.cache.v2"
     private let decoder: JSONDecoder = {
         let d = JSONDecoder()
         d.dateDecodingStrategy = .iso8601
@@ -51,8 +51,11 @@ final class TrendFeedService: ObservableObject {
         items.sorted { $0.buzzScore > $1.buzzScore }
     }
 
-    func items(in rayon: RayonKind?) -> [TrendingProduct] {
-        let base = topItems
+    func items(in rayon: RayonKind?, category: TrendCategory? = nil) -> [TrendingProduct] {
+        var base = topItems
+        if let category {
+            base = base.filter { $0.resolvedCategory == category }
+        }
         guard let rayon else { return base }
         return base.filter { $0.rayon == rayon }
     }
@@ -67,12 +70,14 @@ final class TrendFeedService: ObservableObject {
             let payload = try decoder.decode(TrendsPayload.self, from: data)
             apply(payload, origin: "Web · tendances du jour")
             saveCache(payload)
+            await enrichProductImages()
             await enrichWithRSSHints()
         } catch {
             if items.isEmpty, let bundled = loadBundled() {
                 apply(bundled, origin: "Hors-ligne · packagé")
             }
             lastError = "Mise à jour web indisponible — affichage du dernier jeu connu."
+            await enrichProductImages()
             await enrichWithRSSHints()
         }
     }
@@ -118,6 +123,29 @@ final class TrendFeedService: ObservableObject {
     private func saveCache(_ payload: TrendsPayload) {
         if let data = try? encoder.encode(payload) {
             UserDefaults.standard.set(data, forKey: cacheKey)
+        }
+    }
+
+    /// Complète les images manquantes via Open Food Facts (barcode).
+    private func enrichProductImages() async {
+        var changed = false
+        for index in items.indices {
+            let item = items[index]
+            guard let barcode = item.barcode, !barcode.isEmpty else { continue }
+            guard item.imageURL == nil || item.imageURL?.isEmpty == true else { continue }
+            guard let product = try? await OpenFoodFactsClient.lookup(barcode: barcode),
+                  let url = product.imageURL else { continue }
+            items[index].imageURL = url.absoluteString
+            changed = true
+        }
+        if changed {
+            let payload = TrendsPayload(
+                updatedAt: updatedAt ?? Date(),
+                headline: headline,
+                sourceNote: sourceNote,
+                items: items
+            )
+            saveCache(payload)
         }
     }
 
