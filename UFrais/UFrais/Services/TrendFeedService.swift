@@ -25,7 +25,7 @@ final class TrendFeedService: ObservableObject {
         URL(string: "https://www.lsa-conso.fr/rss")
     ].compactMap { $0 }
 
-    private let cacheKey = "ufrais.trends.cache.v2"
+    private let cacheKey = "ufrais.trends.cache.v3"
     private let decoder: JSONDecoder = {
         let d = JSONDecoder()
         d.dateDecodingStrategy = .iso8601
