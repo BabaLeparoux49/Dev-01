@@ -13,9 +13,10 @@ final class TrendFeedService: ObservableObject {
     @Published var feedOrigin = "Cache local"
 
     /// JSON hébergé sur le dépôt — mis à jour côté web sans republier l'app.
+    /// Branche images prioritaire tant que le correctif fruits rouges n'est pas sur main.
     static let remoteCandidates: [URL] = [
-        "https://raw.githubusercontent.com/BabaLeparoux49/Dev-01/main/UFrais/UFrais/Data/trends.json",
         "https://raw.githubusercontent.com/BabaLeparoux49/Dev-01/cursor/tendances-images-nouveautes-2bfd/UFrais/UFrais/Data/trends.json",
+        "https://raw.githubusercontent.com/BabaLeparoux49/Dev-01/main/UFrais/UFrais/Data/trends.json",
         "https://raw.githubusercontent.com/BabaLeparoux49/Dev-01/cursor/ufrais-super-u-ligne-2bfd/UFrais/UFrais/Data/trends.json"
     ].compactMap(URL.init(string:))
 
