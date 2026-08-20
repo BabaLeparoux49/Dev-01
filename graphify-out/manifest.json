@@ -82,5 +82,83 @@
     "seen": 1787205738.1925242,
     "ast_hash": "7810e455a432dc613c3b4adf9a5cc644",
     "semantic_hash": "7810e455a432dc613c3b4adf9a5cc644"
+  },
+  ".claude/CLAUDE.md": {
+    "mtime": 1787205728.5853913,
+    "seen": 1787205987.9791017,
+    "ast_hash": "9b31786b637be3c13978bec4c2330752",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/SKILL.md": {
+    "mtime": 1787205728.5853913,
+    "seen": 1787205987.9791036,
+    "ast_hash": "1656a8a8e4a05bbe69f32cd15de81e87",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/references/add-watch.md": {
+    "mtime": 1787205725.6414843,
+    "seen": 1787205987.9791043,
+    "ast_hash": "d59d027fe449f06aa03905a01184e779",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/references/exports.md": {
+    "mtime": 1787205725.6414843,
+    "seen": 1787205987.9791048,
+    "ast_hash": "9da2a2152e60a22f07f05fed5158f287",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/references/extraction-spec.md": {
+    "mtime": 1787205725.6414843,
+    "seen": 1787205987.9791057,
+    "ast_hash": "42fef56a01698118f7fd722acdadea34",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/references/github-and-merge.md": {
+    "mtime": 1787205725.6414843,
+    "seen": 1787205987.9791062,
+    "ast_hash": "cde13df085e4c492aeb7ba298a996d0d",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/references/hooks.md": {
+    "mtime": 1787205725.6414843,
+    "seen": 1787205987.9791071,
+    "ast_hash": "3f545db6ce646650bb9de588f5512a27",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/references/query.md": {
+    "mtime": 1787205725.6414843,
+    "seen": 1787205987.9791076,
+    "ast_hash": "3c46f8ad006874260614ed8657d02307",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/references/transcribe.md": {
+    "mtime": 1787205725.6414843,
+    "seen": 1787205987.9791086,
+    "ast_hash": "67b6a5fa6c0974e18f60db9f8932fbd8",
+    "semantic_hash": ""
+  },
+  ".claude/skills/graphify/references/update.md": {
+    "mtime": 1787205725.6414843,
+    "seen": 1787205987.9791093,
+    "ast_hash": "9378bd03d56baaf78bd738ab3848f142",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1787205728.5853913,
+    "seen": 1787205987.97911,
+    "ast_hash": "82efb97a359f5c7290bf2513d14686be",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1787205763.0130818,
+    "seen": 1787205987.9791107,
+    "ast_hash": "976ebf7c3a2cfad253ec36c9fda7c268",
+    "semantic_hash": ""
+  },
+  "UFrais/UFrais/Assets.xcassets/AppIcon.appiconset/AppIcon.png": {
+    "mtime": 1787200124.292719,
+    "seen": 1787205987.9791114,
+    "ast_hash": "056711ac59db1593f21a06fb4bb5c403",
+    "semantic_hash": ""
   }
 }

@@ -18,3 +18,4 @@ playground.xcworkspace
 graphify-out/cache/
 graphify-out/.graphify_*
 graphify-out/.graphify_python
+graphify-out/20*/
