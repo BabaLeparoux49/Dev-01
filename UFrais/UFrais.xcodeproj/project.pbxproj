@@ -20,6 +20,9 @@
 		BF0000000000000000000015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000015 /* Assets.xcassets */; };
 		BF0000000000000000000016 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000016 /* Preview Assets.xcassets */; };
 		BF0000000000000000000017 /* trends.json in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000017 /* trends.json */; };
+		BF0000000000000000000018 /* OpenFoodFactsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000018 /* OpenFoodFactsClient.swift */; };
+		BF0000000000000000000019 /* ConcurrentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000019 /* ConcurrentView.swift */; };
+		BF0000000000000000000020 /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000020 /* BarcodeScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		FR0000000000000000000015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FR0000000000000000000016 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FR0000000000000000000017 /* trends.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = trends.json; sourceTree = "<group>"; };
+		FR0000000000000000000018 /* OpenFoodFactsClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenFoodFactsClient.swift; sourceTree = "<group>"; };
+		FR0000000000000000000019 /* ConcurrentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentView.swift; sourceTree = "<group>"; };
+		FR0000000000000000000020 /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,7 @@
 			children = (
 				FR0000000000000000000007 /* TrendFeedService.swift */,
 				FR0000000000000000000008 /* HistoryStore.swift */,
+				FR0000000000000000000018 /* OpenFoodFactsClient.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -121,6 +128,8 @@
 			children = (
 				FR0000000000000000000010 /* CalculatorView.swift */,
 				FR0000000000000000000011 /* TendancesView.swift */,
+				FR0000000000000000000019 /* ConcurrentView.swift */,
+				FR0000000000000000000020 /* BarcodeScannerView.swift */,
 				FR0000000000000000000014 /* Components.swift */,
 			);
 			path = Views;
@@ -216,6 +225,9 @@
 				BF0000000000000000000010 /* CalculatorView.swift in Sources */,
 				BF0000000000000000000011 /* TendancesView.swift in Sources */,
 				BF0000000000000000000014 /* Components.swift in Sources */,
+				BF0000000000000000000018 /* OpenFoodFactsClient.swift in Sources */,
+				BF0000000000000000000019 /* ConcurrentView.swift in Sources */,
+				BF0000000000000000000020 /* BarcodeScannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +365,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "U Frais";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSCameraUsageDescription = "U Frais utilise la caméra pour scanner les codes-barres et comparer un prix concurrent.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -386,6 +399,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "U Frais";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSCameraUsageDescription = "U Frais utilise la caméra pour scanner les codes-barres et comparer un prix concurrent.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -7,6 +7,15 @@ Deux outils, zéro chiffre magasin :
 1. **Calculateur** — marges, taux de marque, coefficient, TVA
 2. **Tendances** — produits en vogue (web / réseaux), mis à jour chaque jour
 
+## Concurrent (scan)
+
+Nouvel onglet **Scan** :
+- Scan code-barres (caméra) ou saisie EAN
+- Fiche produit via **Open Food Facts**
+- Saisie de ton prix TTC + prix concurrent → écart € / %
+- Marque optionnelle si tu renseignes le PA HT
+- Lien « Chercher sur le web » pour peaufiner le prix concurrent
+
 ## Calculateur
 
 - **Marge** : PA HT + PV TTC + TVA → PV HT, marge brute, taux de marge, **taux de marque**, coefficient, TVA collectée / nette

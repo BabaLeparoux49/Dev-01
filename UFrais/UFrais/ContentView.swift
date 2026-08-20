@@ -1,13 +1,14 @@
 import SwiftUI
 
 enum AppTab: String, CaseIterable, Identifiable {
-    case calcul, tendances
+    case calcul, concurrent, tendances
 
     var id: String { rawValue }
 
     var title: String {
         switch self {
         case .calcul: return "Calcul"
+        case .concurrent: return "Scan"
         case .tendances: return "Tendances"
         }
     }
@@ -15,6 +16,7 @@ enum AppTab: String, CaseIterable, Identifiable {
     var symbol: String {
         switch self {
         case .calcul: return "plusminus.circle.fill"
+        case .concurrent: return "barcode.viewfinder"
         case .tendances: return "flame.fill"
         }
     }
@@ -29,6 +31,7 @@ struct ContentView: View {
             Group {
                 switch tab {
                 case .calcul: CalculatorView()
+                case .concurrent: ConcurrentView()
                 case .tendances: TendancesView()
                 }
             }
