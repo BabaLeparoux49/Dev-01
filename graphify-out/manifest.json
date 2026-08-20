@@ -1,8 +1,8 @@
 {
   "UFrais/UFrais/ContentView.swift": {
-    "mtime": 1787225927.4604774,
-    "seen": 1787226026.5107076,
-    "ast_hash": "c31a1cf1c77f71fc2d39bc53e3a3892c",
+    "mtime": 1787241586.992147,
+    "seen": 1787241612.455819,
+    "ast_hash": "0f9f897eb6af82d734b2aafb64564239",
     "semantic_hash": ""
   },
   "UFrais/UFrais/Models/CalculatorEngine.swift": {
@@ -12,8 +12,8 @@
     "semantic_hash": "7e03cc9b3b547f7c6e7cd57182e66096"
   },
   "UFrais/UFrais/Models/Domain.swift": {
-    "mtime": 1787225853.0525842,
-    "seen": 1787226026.5107553,
+    "mtime": 1787240186.0646284,
+    "seen": 1787241612.4558783,
     "ast_hash": "fcf9b4149cd839a2e16fb8105963fc69",
     "semantic_hash": ""
   },
@@ -24,26 +24,26 @@
     "semantic_hash": "c4405b873eb31af404cebe1e14a38a63"
   },
   "UFrais/UFrais/Theme/UTheme.swift": {
-    "mtime": 1787225927.4604774,
-    "seen": 1787226026.5107853,
+    "mtime": 1787240186.0646284,
+    "seen": 1787241612.4559088,
     "ast_hash": "8c51a1b1107871af103c0ffde1421b20",
     "semantic_hash": ""
   },
   "UFrais/UFrais/UFraisApp.swift": {
-    "mtime": 1787225927.5124772,
-    "seen": 1787226026.510786,
+    "mtime": 1787240186.0646284,
+    "seen": 1787241612.4559097,
     "ast_hash": "c8df2a757a4b1a8092f7a7adf5766364",
     "semantic_hash": ""
   },
   "UFrais/UFrais/Views/CalculatorView.swift": {
-    "mtime": 1787225995.9523296,
-    "seen": 1787226026.5107868,
+    "mtime": 1787240186.0646284,
+    "seen": 1787241612.4559114,
     "ast_hash": "e2f86f0fdef4790338eed6ea8e14ba63",
     "semantic_hash": ""
   },
   "UFrais/UFrais/Views/Components.swift": {
-    "mtime": 1787225927.4444773,
-    "seen": 1787226026.5107872,
+    "mtime": 1787240186.0646284,
+    "seen": 1787241612.455912,
     "ast_hash": "faa7cae1b7094c840d891acae8543a46",
     "semantic_hash": ""
   },
@@ -108,15 +108,15 @@
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1787207671.3075376,
-    "seen": 1787226026.5109975,
+    "mtime": 1787240186.0646284,
+    "seen": 1787241612.4561243,
     "ast_hash": "3f40a65e1b12ec84568f23c442ced429",
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1787225996.0003295,
-    "seen": 1787226026.5109987,
-    "ast_hash": "106a307d8062bc083a3babfe7a301945",
+    "mtime": 1787241604.400128,
+    "seen": 1787241612.4561255,
+    "ast_hash": "adb5000c657a48cceafee13a6227ffac",
     "semantic_hash": ""
   },
   "UFrais/UFrais/Assets.xcassets/AppIcon.appiconset/AppIcon.png": {
@@ -126,15 +126,33 @@
     "semantic_hash": ""
   },
   "UFrais/UFrais/Services/TrendFeedService.swift": {
-    "mtime": 1787226013.0922878,
-    "seen": 1787226026.510782,
+    "mtime": 1787240186.0646284,
+    "seen": 1787241612.4559076,
     "ast_hash": "44cc56c7e20e8c9c758b7c40087f7ada",
     "semantic_hash": ""
   },
   "UFrais/UFrais/Views/TendancesView.swift": {
-    "mtime": 1787225927.4764774,
-    "seen": 1787226026.5107882,
+    "mtime": 1787240186.0646284,
+    "seen": 1787241612.4559143,
     "ast_hash": "d39ba1597fc4b63d9e7da875e33d3df2",
+    "semantic_hash": ""
+  },
+  "UFrais/UFrais/Services/OpenFoodFactsClient.swift": {
+    "mtime": 1787241541.656199,
+    "seen": 1787241612.4559062,
+    "ast_hash": "9303406a225632a0099f9508af5e5483",
+    "semantic_hash": ""
+  },
+  "UFrais/UFrais/Views/BarcodeScannerView.swift": {
+    "mtime": 1787241586.992147,
+    "seen": 1787241612.4559104,
+    "ast_hash": "06838d4f687cd37c9c981fc10b163854",
+    "semantic_hash": ""
+  },
+  "UFrais/UFrais/Views/ConcurrentView.swift": {
+    "mtime": 1787241604.396128,
+    "seen": 1787241612.4559133,
+    "ast_hash": "ed68f3b66cd064864b2510aaeddd7dcf",
     "semantic_hash": ""
   }
 }

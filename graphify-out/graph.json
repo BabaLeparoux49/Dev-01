@@ -10,24 +10,102 @@
       "_callable_class": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "SavedCalculation",
+      "community_name": "String",
       "file_type": "code",
       "norm_label": "savedcalculation",
       "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
       "source_location": "L77"
     },
     {
-      "id": "ufrais_ufrais_services_historystore_historystore",
-      "label": "HistoryStore",
+      "id": "ufrais_ufrais_services_openfoodfactsclient_codingkeys",
+      "label": "CodingKeys",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "SavedCalculation",
+      "community_name": "String",
       "file_type": "code",
-      "norm_label": "historystore",
-      "source_file": "UFrais/UFrais/Services/HistoryStore.swift",
-      "source_location": "L4"
+      "norm_label": "codingkeys",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L91"
+    },
+    {
+      "id": "ufrais_ufrais_services_openfoodfactsclient_offproduct",
+      "label": "OFFProduct",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "offproduct",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L83"
+    },
+    {
+      "id": "ufrais_ufrais_services_openfoodfactsclient_offresponse",
+      "label": "OFFResponse",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "offresponse",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L78"
+    },
+    {
+      "id": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactsclient",
+      "label": "OpenFoodFactsClient",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "openfoodfactsclient",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L33"
+    },
+    {
+      "id": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactserror",
+      "label": "OpenFoodFactsError",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "openfoodfactserror",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L19"
+    },
+    {
+      "id": "ufrais_ufrais_services_openfoodfactsclient_scannedproduct",
+      "label": "ScannedProduct",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "scannedproduct",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L3"
+    },
+    {
+      "id": "ufrais_ufrais_services_openfoodfactsclient_string",
+      "label": "String",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "string",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L100"
     },
     {
       "id": "ufrais_ufrais_models_domain_rayonkind",
@@ -131,7 +209,7 @@
       "file_type": "code",
       "norm_label": "contentview",
       "source_file": "UFrais/UFrais/ContentView.swift",
-      "source_location": "L23"
+      "source_location": "L25"
     },
     {
       "id": "ufrais_ufrais_ufraisapp_ufraisapp",
@@ -158,6 +236,32 @@
       "norm_label": "splashview",
       "source_file": "UFrais/UFrais/Views/Components.swift",
       "source_location": "L3"
+    },
+    {
+      "id": "ufrais_ufrais_views_barcodescannerview_coordinator",
+      "label": "Coordinator",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Coordinator",
+      "file_type": "code",
+      "norm_label": "coordinator",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L97"
+    },
+    {
+      "id": "ufrais_ufrais_views_barcodescannerview_datascannerrepresentable",
+      "label": "DataScannerRepresentable",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Coordinator",
+      "file_type": "code",
+      "norm_label": "datascannerrepresentable",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L66"
     },
     {
       "id": "ufrais_ufrais_theme_utheme_ucolor",
@@ -251,6 +355,19 @@
       "source_location": "L189"
     },
     {
+      "id": "ufrais_ufrais_services_historystore_historystore",
+      "label": "HistoryStore",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "CalculatorView",
+      "file_type": "code",
+      "norm_label": "historystore",
+      "source_file": "UFrais/UFrais/Services/HistoryStore.swift",
+      "source_location": "L4"
+    },
+    {
       "id": "ufrais_ufrais_views_calculatorview_calculatorview",
       "label": "CalculatorView",
       "_callable": true,
@@ -264,30 +381,30 @@
       "source_location": "L3"
     },
     {
-      "id": "ufrais_ufrais_views_components_marquegauge",
-      "label": "MarqueGauge",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "CalculatorView",
-      "file_type": "code",
-      "norm_label": "marquegauge",
-      "source_file": "UFrais/UFrais/Views/Components.swift",
-      "source_location": "L190"
-    },
-    {
       "id": "ufrais_ufrais_models_calculatorengine_calculatorengine",
       "label": "CalculatorEngine",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "community": 4,
-      "community_name": "VATRate",
+      "community_name": "MarginBreakdown",
       "file_type": "code",
       "norm_label": "calculatorengine",
       "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
       "source_location": "L56"
+    },
+    {
+      "id": "ufrais_ufrais_models_calculatorengine_marginbreakdown",
+      "label": "MarginBreakdown",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MarginBreakdown",
+      "file_type": "code",
+      "norm_label": "marginbreakdown",
+      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
+      "source_location": "L36"
     },
     {
       "id": "ufrais_ufrais_models_calculatorengine_vatrate",
@@ -296,7 +413,7 @@
       "_callable_class": true,
       "_origin": "ast",
       "community": 4,
-      "community_name": "VATRate",
+      "community_name": "MarginBreakdown",
       "file_type": "code",
       "norm_label": "vatrate",
       "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
@@ -309,7 +426,7 @@
       "_callable_class": true,
       "_origin": "ast",
       "community": 4,
-      "community_name": "VATRate",
+      "community_name": "MarginBreakdown",
       "file_type": "code",
       "norm_label": "double",
       "source_file": "UFrais/UFrais/Theme/UTheme.swift",
@@ -381,6 +498,19 @@
       "source_location": "L73"
     },
     {
+      "id": "ufrais_ufrais_views_components_marquegauge",
+      "label": "MarqueGauge",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "Components.swift",
+      "file_type": "code",
+      "norm_label": "marquegauge",
+      "source_file": "UFrais/UFrais/Views/Components.swift",
+      "source_location": "L190"
+    },
+    {
       "id": "ufrais_ufrais_views_components_rayonchip",
       "label": "RayonChip",
       "_callable": true,
@@ -446,17 +576,56 @@
       "source_location": "L245"
     },
     {
-      "id": "ufrais_ufrais_models_calculatorengine_marginbreakdown",
-      "label": "MarginBreakdown",
+      "id": "ufrais_ufrais_services_openfoodfactsclient_competitorgap",
+      "label": "CompetitorGap",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "community": 9,
-      "community_name": "MarginBreakdown",
+      "community_name": "ConcurrentView",
       "file_type": "code",
-      "norm_label": "marginbreakdown",
-      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
-      "source_location": "L36"
+      "norm_label": "competitorgap",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L107"
+    },
+    {
+      "id": "ufrais_ufrais_views_barcodescannerview_barcodescannersheet",
+      "label": "BarcodeScannerSheet",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "ConcurrentView",
+      "file_type": "code",
+      "norm_label": "barcodescannersheet",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L5"
+    },
+    {
+      "id": "ufrais_ufrais_views_concurrentview_concurrentview",
+      "label": "ConcurrentView",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "ConcurrentView",
+      "file_type": "code",
+      "norm_label": "concurrentview",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L3"
+    },
+    {
+      "id": "ufrais_ufrais_views_concurrentview_field",
+      "label": "Field",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "ConcurrentView",
+      "file_type": "code",
+      "norm_label": "field",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L16"
     },
     {
       "id": "ufrais_ufrais_models_calculatorengine_savedcalculation_init",
@@ -464,83 +633,23 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "SavedCalculation",
+      "community_name": "String",
       "file_type": "code",
       "norm_label": ".init()",
       "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
       "source_location": "L86"
     },
     {
-      "id": "ufrais_ufrais_services_historystore_historystore_clear",
-      "label": ".clear()",
+      "id": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactsclient_lookup",
+      "label": ".lookup()",
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "SavedCalculation",
+      "community_name": "String",
       "file_type": "code",
-      "norm_label": ".clear()",
-      "source_file": "UFrais/UFrais/Services/HistoryStore.swift",
-      "source_location": "L24"
-    },
-    {
-      "id": "ufrais_ufrais_services_historystore_historystore_init",
-      "label": ".init()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "SavedCalculation",
-      "file_type": "code",
-      "norm_label": ".init()",
-      "source_file": "UFrais/UFrais/Services/HistoryStore.swift",
-      "source_location": "L10"
-    },
-    {
-      "id": "ufrais_ufrais_services_historystore_historystore_load",
-      "label": ".load()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "SavedCalculation",
-      "file_type": "code",
-      "norm_label": ".load()",
-      "source_file": "UFrais/UFrais/Services/HistoryStore.swift",
+      "norm_label": ".lookup()",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
       "source_location": "L35"
-    },
-    {
-      "id": "ufrais_ufrais_services_historystore_historystore_persist",
-      "label": ".persist()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "SavedCalculation",
-      "file_type": "code",
-      "norm_label": ".persist()",
-      "source_file": "UFrais/UFrais/Services/HistoryStore.swift",
-      "source_location": "L29"
-    },
-    {
-      "id": "ufrais_ufrais_services_historystore_historystore_remove",
-      "label": ".remove()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "SavedCalculation",
-      "file_type": "code",
-      "norm_label": ".remove()",
-      "source_file": "UFrais/UFrais/Services/HistoryStore.swift",
-      "source_location": "L19"
-    },
-    {
-      "id": "ufrais_ufrais_services_historystore_historystore_save",
-      "label": ".save()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "SavedCalculation",
-      "file_type": "code",
-      "norm_label": ".save()",
-      "source_file": "UFrais/UFrais/Services/HistoryStore.swift",
-      "source_location": "L14"
     },
     {
       "id": "ufrais_ufrais_services_trendfeedservice_trendfeedservice_items",
@@ -553,6 +662,90 @@
       "norm_label": ".items()",
       "source_file": "UFrais/UFrais/Services/TrendFeedService.swift",
       "source_location": "L54"
+    },
+    {
+      "id": "ufrais_ufrais_views_barcodescannerview_coordinator_datascanner",
+      "label": ".dataScanner()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Coordinator",
+      "file_type": "code",
+      "norm_label": ".datascanner()",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L105"
+    },
+    {
+      "id": "ufrais_ufrais_views_barcodescannerview_coordinator_emit",
+      "label": ".emit()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Coordinator",
+      "file_type": "code",
+      "norm_label": ".emit()",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L114"
+    },
+    {
+      "id": "ufrais_ufrais_views_barcodescannerview_coordinator_init",
+      "label": ".init()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Coordinator",
+      "file_type": "code",
+      "norm_label": ".init()",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L101"
+    },
+    {
+      "id": "ufrais_ufrais_views_barcodescannerview_datascannerrepresentable_dismantleuiviewcontroller",
+      "label": ".dismantleUIViewController()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Coordinator",
+      "file_type": "code",
+      "norm_label": ".dismantleuiviewcontroller()",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L89"
+    },
+    {
+      "id": "ufrais_ufrais_views_barcodescannerview_datascannerrepresentable_makecoordinator",
+      "label": ".makeCoordinator()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Coordinator",
+      "file_type": "code",
+      "norm_label": ".makecoordinator()",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L93"
+    },
+    {
+      "id": "ufrais_ufrais_views_barcodescannerview_datascannerrepresentable_makeuiviewcontroller",
+      "label": ".makeUIViewController()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Coordinator",
+      "file_type": "code",
+      "norm_label": ".makeuiviewcontroller()",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L69"
+    },
+    {
+      "id": "ufrais_ufrais_views_barcodescannerview_datascannerrepresentable_updateuiviewcontroller",
+      "label": ".updateUIViewController()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Coordinator",
+      "file_type": "code",
+      "norm_label": ".updateuiviewcontroller()",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L83"
     },
     {
       "id": "ufrais_ufrais_theme_utheme_ufont_body",
@@ -615,6 +808,78 @@
       "source_location": "L210"
     },
     {
+      "id": "ufrais_ufrais_services_historystore_historystore_clear",
+      "label": ".clear()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "CalculatorView",
+      "file_type": "code",
+      "norm_label": ".clear()",
+      "source_file": "UFrais/UFrais/Services/HistoryStore.swift",
+      "source_location": "L24"
+    },
+    {
+      "id": "ufrais_ufrais_services_historystore_historystore_init",
+      "label": ".init()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "CalculatorView",
+      "file_type": "code",
+      "norm_label": ".init()",
+      "source_file": "UFrais/UFrais/Services/HistoryStore.swift",
+      "source_location": "L10"
+    },
+    {
+      "id": "ufrais_ufrais_services_historystore_historystore_load",
+      "label": ".load()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "CalculatorView",
+      "file_type": "code",
+      "norm_label": ".load()",
+      "source_file": "UFrais/UFrais/Services/HistoryStore.swift",
+      "source_location": "L35"
+    },
+    {
+      "id": "ufrais_ufrais_services_historystore_historystore_persist",
+      "label": ".persist()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "CalculatorView",
+      "file_type": "code",
+      "norm_label": ".persist()",
+      "source_file": "UFrais/UFrais/Services/HistoryStore.swift",
+      "source_location": "L29"
+    },
+    {
+      "id": "ufrais_ufrais_services_historystore_historystore_remove",
+      "label": ".remove()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "CalculatorView",
+      "file_type": "code",
+      "norm_label": ".remove()",
+      "source_file": "UFrais/UFrais/Services/HistoryStore.swift",
+      "source_location": "L19"
+    },
+    {
+      "id": "ufrais_ufrais_services_historystore_historystore_save",
+      "label": ".save()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "CalculatorView",
+      "file_type": "code",
+      "norm_label": ".save()",
+      "source_file": "UFrais/UFrais/Services/HistoryStore.swift",
+      "source_location": "L14"
+    },
+    {
       "id": "ufrais_ufrais_views_calculatorview_calculatorview_format",
       "label": ".format()",
       "_callable": true,
@@ -668,7 +933,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 4,
-      "community_name": "VATRate",
+      "community_name": "MarginBreakdown",
       "file_type": "code",
       "norm_label": ".ht()",
       "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
@@ -680,7 +945,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 4,
-      "community_name": "VATRate",
+      "community_name": "MarginBreakdown",
       "file_type": "code",
       "norm_label": ".sellingpricettc()",
       "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
@@ -692,7 +957,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 4,
-      "community_name": "VATRate",
+      "community_name": "MarginBreakdown",
       "file_type": "code",
       "norm_label": ".ttc()",
       "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
@@ -704,7 +969,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 4,
-      "community_name": "VATRate",
+      "community_name": "MarginBreakdown",
       "file_type": "code",
       "norm_label": ".vatamount()",
       "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
@@ -843,134 +1108,315 @@
       "source_location": "L246"
     },
     {
-      "id": "combine",
-      "label": "Combine",
+      "id": "ufrais_ufrais_views_concurrentview_concurrentview_gapcard",
+      "label": ".gapCard()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "ConcurrentView",
+      "file_type": "code",
+      "norm_label": ".gapcard()",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L213"
+    },
+    {
+      "id": "ufrais_ufrais_views_concurrentview_concurrentview_lookup",
+      "label": ".lookup()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "ConcurrentView",
+      "file_type": "code",
+      "norm_label": ".lookup()",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L285"
+    },
+    {
+      "id": "ufrais_ufrais_views_concurrentview_concurrentview_margincard",
+      "label": ".marginCard()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "ConcurrentView",
+      "file_type": "code",
+      "norm_label": ".margincard()",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L233"
+    },
+    {
+      "id": "ufrais_ufrais_views_concurrentview_concurrentview_metric",
+      "label": ".metric()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "ConcurrentView",
+      "file_type": "code",
+      "norm_label": ".metric()",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L270"
+    },
+    {
+      "id": "ufrais_ufrais_views_concurrentview_concurrentview_parse",
+      "label": ".parse()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "ConcurrentView",
+      "file_type": "code",
+      "norm_label": ".parse()",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L303"
+    },
+    {
+      "id": "ufrais_ufrais_views_concurrentview_concurrentview_productcard",
+      "label": ".productCard()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "ConcurrentView",
+      "file_type": "code",
+      "norm_label": ".productcard()",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L130"
+    },
+    {
+      "id": "ufrais_ufrais_views_concurrentview_concurrentview_searchurl",
+      "label": ".searchURL()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "ConcurrentView",
+      "file_type": "code",
+      "norm_label": ".searchurl()",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L261"
+    },
+    {
+      "id": "codingkey",
+      "label": "CodingKey",
       "_origin": "ast",
       "community": 0,
-      "community_name": "SavedCalculation",
+      "community_name": "String",
       "file_type": "code",
-      "norm_label": "combine",
-      "source_file": "UFrais/UFrais/Services/TrendFeedService.swift",
-      "source_location": "L2",
-      "type": "module"
+      "norm_label": "codingkey",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "decodable",
+      "label": "Decodable",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "decodable",
+      "source_file": "",
+      "source_location": ""
     },
     {
       "id": "equatable",
       "label": "Equatable",
       "_origin": "ast",
       "community": 0,
-      "community_name": "SavedCalculation",
+      "community_name": "String",
       "file_type": "code",
       "norm_label": "equatable",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "foundation",
-      "label": "Foundation",
+      "id": "localizederror",
+      "label": "LocalizedError",
       "_origin": "ast",
       "community": 0,
-      "community_name": "SavedCalculation",
+      "community_name": "String",
       "file_type": "code",
-      "norm_label": "foundation",
-      "source_file": "UFrais/UFrais/Services/TrendFeedService.swift",
-      "source_location": "L1",
-      "type": "module"
-    },
-    {
-      "id": "indexset",
-      "label": "IndexSet",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "SavedCalculation",
-      "file_type": "code",
-      "norm_label": "indexset",
+      "norm_label": "localizederror",
       "source_file": "",
       "source_location": ""
-    },
-    {
-      "id": "observableobject",
-      "label": "ObservableObject",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "SavedCalculation",
-      "file_type": "code",
-      "norm_label": "observableobject",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "ufrais_ufrais_models_calculatorengine",
-      "label": "CalculatorEngine.swift",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "SavedCalculation",
-      "file_type": "code",
-      "norm_label": "calculatorengine.swift",
-      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
-      "source_location": "L1"
     },
     {
       "id": "ufrais_ufrais_models_calculatorengine_swift_date",
       "label": "Date",
       "_origin": "ast",
       "community": 0,
-      "community_name": "SavedCalculation",
+      "community_name": "String",
       "file_type": "code",
       "norm_label": "date",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "ufrais_ufrais_models_calculatorengine_swift_string",
-      "label": "String",
+      "id": "ufrais_ufrais_services_openfoodfactsclient",
+      "label": "OpenFoodFactsClient.swift",
       "_origin": "ast",
       "community": 0,
-      "community_name": "SavedCalculation",
+      "community_name": "String",
       "file_type": "code",
-      "norm_label": "string",
+      "norm_label": "openfoodfactsclient.swift",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "ufrais_ufrais_services_openfoodfactsclient_codingkeys_brands",
+      "label": "brands",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "brands",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L94"
+    },
+    {
+      "id": "ufrais_ufrais_services_openfoodfactsclient_codingkeys_categories",
+      "label": "categories",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "categories",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L94"
+    },
+    {
+      "id": "ufrais_ufrais_services_openfoodfactsclient_codingkeys_imagefrontsmallurl",
+      "label": "imageFrontSmallURL",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "imagefrontsmallurl",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L95"
+    },
+    {
+      "id": "ufrais_ufrais_services_openfoodfactsclient_codingkeys_productname",
+      "label": "productName",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "productname",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L92"
+    },
+    {
+      "id": "ufrais_ufrais_services_openfoodfactsclient_codingkeys_productnamefr",
+      "label": "productNameFr",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "productnamefr",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L93"
+    },
+    {
+      "id": "ufrais_ufrais_services_openfoodfactsclient_codingkeys_quantity",
+      "label": "quantity",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "quantity",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L94"
+    },
+    {
+      "id": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactserror_errordescription",
+      "label": ".errorDescription",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": ".errordescription",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L24"
+    },
+    {
+      "id": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactserror_invalidbarcode",
+      "label": "invalidBarcode",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "invalidbarcode",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L20"
+    },
+    {
+      "id": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactserror_network",
+      "label": "network",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "network",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L22"
+    },
+    {
+      "id": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactserror_notfound",
+      "label": "notFound",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "notfound",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L21"
+    },
+    {
+      "id": "ufrais_ufrais_services_openfoodfactsclient_scannedproduct_displayname",
+      "label": ".displayName",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": ".displayname",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L11"
+    },
+    {
+      "id": "ufrais_ufrais_services_openfoodfactsclient_string_nilifempty",
+      "label": ".nilIfEmpty",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": ".nilifempty",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L101"
+    },
+    {
+      "id": "ufrais_ufrais_services_openfoodfactsclient_swift_int",
+      "label": "Int",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "int",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "ufrais_ufrais_services_historystore",
-      "label": "HistoryStore.swift",
+      "id": "ufrais_ufrais_services_openfoodfactsclient_swift_url",
+      "label": "URL",
       "_origin": "ast",
       "community": 0,
-      "community_name": "SavedCalculation",
+      "community_name": "String",
       "file_type": "code",
-      "norm_label": "historystore.swift",
-      "source_file": "UFrais/UFrais/Services/HistoryStore.swift",
-      "source_location": "L1"
-    },
-    {
-      "id": "ufrais_ufrais_services_trendfeedservice",
-      "label": "TrendFeedService.swift",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "SavedCalculation",
-      "file_type": "code",
-      "norm_label": "trendfeedservice.swift",
-      "source_file": "UFrais/UFrais/Services/TrendFeedService.swift",
-      "source_location": "L1"
-    },
-    {
-      "id": "ufrais_ufrais_views_calculatorview_calculatorview_historyblock",
-      "label": ".historyBlock",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "SavedCalculation",
-      "file_type": "code",
-      "norm_label": ".historyblock",
-      "source_file": "UFrais/UFrais/Views/CalculatorView.swift",
-      "source_location": "L273"
+      "norm_label": "url",
+      "source_file": "",
+      "source_location": ""
     },
     {
       "id": "uuid",
       "label": "UUID",
       "_origin": "ast",
       "community": 0,
-      "community_name": "SavedCalculation",
+      "community_name": "String",
       "file_type": "code",
       "norm_label": "uuid",
       "source_file": "",
@@ -1352,6 +1798,17 @@
       "source_location": "L4"
     },
     {
+      "id": "ufrais_ufrais_contentview_apptab_concurrent",
+      "label": "concurrent",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "AppTab",
+      "file_type": "code",
+      "norm_label": "concurrent",
+      "source_file": "UFrais/UFrais/ContentView.swift",
+      "source_location": "L4"
+    },
+    {
       "id": "ufrais_ufrais_contentview_apptab_id",
       "label": ".id",
       "_origin": "ast",
@@ -1371,7 +1828,7 @@
       "file_type": "code",
       "norm_label": ".symbol",
       "source_file": "UFrais/UFrais/ContentView.swift",
-      "source_location": "L15"
+      "source_location": "L16"
     },
     {
       "id": "ufrais_ufrais_contentview_apptab_tendances",
@@ -1404,7 +1861,7 @@
       "file_type": "code",
       "norm_label": ".body",
       "source_file": "UFrais/UFrais/ContentView.swift",
-      "source_location": "L27"
+      "source_location": "L29"
     },
     {
       "id": "ufrais_ufrais_contentview_contentview_customtabbar",
@@ -1415,7 +1872,7 @@
       "file_type": "code",
       "norm_label": ".customtabbar",
       "source_file": "UFrais/UFrais/ContentView.swift",
-      "source_location": "L43"
+      "source_location": "L46"
     },
     {
       "id": "ufrais_ufrais_ufraisapp",
@@ -1440,6 +1897,17 @@
       "source_location": "L9"
     },
     {
+      "id": "ufrais_ufrais_views_barcodescannerview",
+      "label": "BarcodeScannerView.swift",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "AppTab",
+      "file_type": "code",
+      "norm_label": "barcodescannerview.swift",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L1"
+    },
+    {
       "id": "ufrais_ufrais_views_calculatorview",
       "label": "CalculatorView.swift",
       "_origin": "ast",
@@ -1449,6 +1917,29 @@
       "norm_label": "calculatorview.swift",
       "source_file": "UFrais/UFrais/Views/CalculatorView.swift",
       "source_location": "L1"
+    },
+    {
+      "id": "ufrais_ufrais_views_concurrentview",
+      "label": "ConcurrentView.swift",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "AppTab",
+      "file_type": "code",
+      "norm_label": "concurrentview.swift",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "visionkit",
+      "label": "VisionKit",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "AppTab",
+      "file_type": "code",
+      "norm_label": "visionkit",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L2",
+      "type": "module"
     },
     {
       "id": "readme",
@@ -1472,7 +1963,7 @@
       "node_kind": "heading",
       "norm_label": "calculateur",
       "source_file": "README.md",
-      "source_location": "L10"
+      "source_location": "L19"
     },
     {
       "id": "readme_charte",
@@ -1484,7 +1975,19 @@
       "node_kind": "heading",
       "norm_label": "charte",
       "source_file": "README.md",
-      "source_location": "L26"
+      "source_location": "L35"
+    },
+    {
+      "id": "readme_concurrent_scan",
+      "label": "Concurrent (scan)",
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "U Frais \u2014 Super U Lign\u00e9",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "concurrent (scan)",
+      "source_file": "README.md",
+      "source_location": "L10"
     },
     {
       "id": "readme_formules",
@@ -1496,7 +1999,7 @@
       "node_kind": "heading",
       "norm_label": "formules",
       "source_file": "README.md",
-      "source_location": "L35"
+      "source_location": "L44"
     },
     {
       "id": "readme_graphify",
@@ -1508,7 +2011,7 @@
       "node_kind": "heading",
       "norm_label": "graphify",
       "source_file": "README.md",
-      "source_location": "L50"
+      "source_location": "L59"
     },
     {
       "id": "readme_ouvrir_dans_xcode",
@@ -1520,7 +2023,7 @@
       "node_kind": "heading",
       "norm_label": "ouvrir dans xcode",
       "source_file": "README.md",
-      "source_location": "L43"
+      "source_location": "L52"
     },
     {
       "id": "readme_tendances_web",
@@ -1532,7 +2035,7 @@
       "node_kind": "heading",
       "norm_label": "tendances (web)",
       "source_file": "README.md",
-      "source_location": "L16"
+      "source_location": "L25"
     },
     {
       "id": "readme_u_frais_super_u_lign\u00e9",
@@ -1617,6 +2120,94 @@
       "norm_label": "step 1 \u2014 traversal",
       "source_file": ".claude/skills/graphify/references/query.md",
       "source_location": "L61"
+    },
+    {
+      "id": "context",
+      "label": "Context",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Coordinator",
+      "file_type": "code",
+      "norm_label": "context",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "datascannerviewcontroller",
+      "label": "DataScannerViewController",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Coordinator",
+      "file_type": "code",
+      "norm_label": "datascannerviewcontroller",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "datascannerviewcontrollerdelegate",
+      "label": "DataScannerViewControllerDelegate",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Coordinator",
+      "file_type": "code",
+      "norm_label": "datascannerviewcontrollerdelegate",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "nsobject",
+      "label": "NSObject",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Coordinator",
+      "file_type": "code",
+      "norm_label": "nsobject",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "recognizeditem",
+      "label": "RecognizedItem",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Coordinator",
+      "file_type": "code",
+      "norm_label": "recognizeditem",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "ufrais_ufrais_views_barcodescannerview_barcodescannersheet_body",
+      "label": ".body",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Coordinator",
+      "file_type": "code",
+      "norm_label": ".body",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L12"
+    },
+    {
+      "id": "uiviewcontrollerrepresentable",
+      "label": "UIViewControllerRepresentable",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Coordinator",
+      "file_type": "code",
+      "norm_label": "uiviewcontrollerrepresentable",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "void",
+      "label": "Void",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Coordinator",
+      "file_type": "code",
+      "norm_label": "void",
+      "source_file": "",
+      "source_location": ""
     },
     {
       "id": "claude_skills_graphify_references_add_watch",
@@ -1969,17 +2560,6 @@
       "source_location": ""
     },
     {
-      "id": "ufrais_ufrais_views_tendancesview_swift_string",
-      "label": "String",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": ".display",
-      "file_type": "code",
-      "norm_label": "string",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
       "id": "ufrais_ufrais_views_tendancesview_tendancesview_body",
       "label": ".body",
       "_origin": "ast",
@@ -2105,13 +2685,24 @@
       "source_location": "L1"
     },
     {
-      "id": "string",
-      "label": "String",
+      "id": "indexset",
+      "label": "IndexSet",
       "_origin": "ast",
       "community": 3,
       "community_name": "CalculatorView",
       "file_type": "code",
-      "norm_label": "string",
+      "norm_label": "indexset",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "observableobject",
+      "label": "ObservableObject",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "CalculatorView",
+      "file_type": "code",
+      "norm_label": "observableobject",
       "source_file": "",
       "source_location": ""
     },
@@ -2158,6 +2749,17 @@
       "norm_label": ".header",
       "source_file": "UFrais/UFrais/Views/CalculatorView.swift",
       "source_location": "L57"
+    },
+    {
+      "id": "ufrais_ufrais_views_calculatorview_calculatorview_historyblock",
+      "label": ".historyBlock",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "CalculatorView",
+      "file_type": "code",
+      "norm_label": ".historyblock",
+      "source_file": "UFrais/UFrais/Views/CalculatorView.swift",
+      "source_location": "L273"
     },
     {
       "id": "ufrais_ufrais_views_calculatorview_calculatorview_margeresults",
@@ -2270,13 +2872,180 @@
       "source_location": ""
     },
     {
-      "id": "view",
-      "label": "View",
+      "id": "combine",
+      "label": "Combine",
       "_origin": "ast",
-      "community": 3,
-      "community_name": "CalculatorView",
+      "community": 4,
+      "community_name": "MarginBreakdown",
       "file_type": "code",
-      "norm_label": "view",
+      "norm_label": "combine",
+      "source_file": "UFrais/UFrais/Services/TrendFeedService.swift",
+      "source_location": "L2",
+      "type": "module"
+    },
+    {
+      "id": "foundation",
+      "label": "Foundation",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MarginBreakdown",
+      "file_type": "code",
+      "norm_label": "foundation",
+      "source_file": "UFrais/UFrais/Services/TrendFeedService.swift",
+      "source_location": "L1",
+      "type": "module"
+    },
+    {
+      "id": "ufrais_ufrais_models_calculatorengine",
+      "label": "CalculatorEngine.swift",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MarginBreakdown",
+      "file_type": "code",
+      "norm_label": "calculatorengine.swift",
+      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "ufrais_ufrais_models_calculatorengine_marginbreakdown_coefficient",
+      "label": ".coefficient",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MarginBreakdown",
+      "file_type": "code",
+      "norm_label": ".coefficient",
+      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
+      "source_location": "L46"
+    },
+    {
+      "id": "ufrais_ufrais_models_calculatorengine_marginbreakdown_grossmargin",
+      "label": ".grossMargin",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MarginBreakdown",
+      "file_type": "code",
+      "norm_label": ".grossmargin",
+      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
+      "source_location": "L43"
+    },
+    {
+      "id": "ufrais_ufrais_models_calculatorengine_marginbreakdown_isloss",
+      "label": ".isLoss",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MarginBreakdown",
+      "file_type": "code",
+      "norm_label": ".isloss",
+      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
+      "source_location": "L53"
+    },
+    {
+      "id": "ufrais_ufrais_models_calculatorengine_marginbreakdown_isvalid",
+      "label": ".isValid",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MarginBreakdown",
+      "file_type": "code",
+      "norm_label": ".isvalid",
+      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
+      "source_location": "L52"
+    },
+    {
+      "id": "ufrais_ufrais_models_calculatorengine_marginbreakdown_marginrate",
+      "label": ".marginRate",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MarginBreakdown",
+      "file_type": "code",
+      "norm_label": ".marginrate",
+      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
+      "source_location": "L44"
+    },
+    {
+      "id": "ufrais_ufrais_models_calculatorengine_marginbreakdown_marquerate",
+      "label": ".marqueRate",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MarginBreakdown",
+      "file_type": "code",
+      "norm_label": ".marquerate",
+      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
+      "source_location": "L45"
+    },
+    {
+      "id": "ufrais_ufrais_models_calculatorengine_marginbreakdown_pattc",
+      "label": ".paTTC",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MarginBreakdown",
+      "file_type": "code",
+      "norm_label": ".pattc",
+      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
+      "source_location": "L42"
+    },
+    {
+      "id": "ufrais_ufrais_models_calculatorengine_marginbreakdown_pvht",
+      "label": ".pvHT",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MarginBreakdown",
+      "file_type": "code",
+      "norm_label": ".pvht",
+      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
+      "source_location": "L41"
+    },
+    {
+      "id": "ufrais_ufrais_models_calculatorengine_marginbreakdown_ttcmargin",
+      "label": ".ttcMargin",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MarginBreakdown",
+      "file_type": "code",
+      "norm_label": ".ttcmargin",
+      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
+      "source_location": "L50"
+    },
+    {
+      "id": "ufrais_ufrais_models_calculatorengine_marginbreakdown_vatcollected",
+      "label": ".vatCollected",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MarginBreakdown",
+      "file_type": "code",
+      "norm_label": ".vatcollected",
+      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
+      "source_location": "L47"
+    },
+    {
+      "id": "ufrais_ufrais_models_calculatorengine_marginbreakdown_vatdeductible",
+      "label": ".vatDeductible",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MarginBreakdown",
+      "file_type": "code",
+      "norm_label": ".vatdeductible",
+      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
+      "source_location": "L48"
+    },
+    {
+      "id": "ufrais_ufrais_models_calculatorengine_marginbreakdown_vatnet",
+      "label": ".vatNet",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MarginBreakdown",
+      "file_type": "code",
+      "norm_label": ".vatnet",
+      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
+      "source_location": "L49"
+    },
+    {
+      "id": "ufrais_ufrais_models_calculatorengine_swift_bool",
+      "label": "Bool",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MarginBreakdown",
+      "file_type": "code",
+      "norm_label": "bool",
       "source_file": "",
       "source_location": ""
     },
@@ -2285,7 +3054,7 @@
       "label": "alimentaire",
       "_origin": "ast",
       "community": 4,
-      "community_name": "VATRate",
+      "community_name": "MarginBreakdown",
       "file_type": "code",
       "norm_label": "alimentaire",
       "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
@@ -2296,7 +3065,7 @@
       "label": ".caption",
       "_origin": "ast",
       "community": 4,
-      "community_name": "VATRate",
+      "community_name": "MarginBreakdown",
       "file_type": "code",
       "norm_label": ".caption",
       "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
@@ -2307,7 +3076,7 @@
       "label": ".id",
       "_origin": "ast",
       "community": 4,
-      "community_name": "VATRate",
+      "community_name": "MarginBreakdown",
       "file_type": "code",
       "norm_label": ".id",
       "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
@@ -2318,7 +3087,7 @@
       "label": "intermediaire",
       "_origin": "ast",
       "community": 4,
-      "community_name": "VATRate",
+      "community_name": "MarginBreakdown",
       "file_type": "code",
       "norm_label": "intermediaire",
       "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
@@ -2329,7 +3098,7 @@
       "label": ".label",
       "_origin": "ast",
       "community": 4,
-      "community_name": "VATRate",
+      "community_name": "MarginBreakdown",
       "file_type": "code",
       "norm_label": ".label",
       "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
@@ -2340,7 +3109,7 @@
       "label": "normal",
       "_origin": "ast",
       "community": 4,
-      "community_name": "VATRate",
+      "community_name": "MarginBreakdown",
       "file_type": "code",
       "norm_label": "normal",
       "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
@@ -2351,18 +3120,40 @@
       "label": "superReduit",
       "_origin": "ast",
       "community": 4,
-      "community_name": "VATRate",
+      "community_name": "MarginBreakdown",
       "file_type": "code",
       "norm_label": "superreduit",
       "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
       "source_location": "L10"
     },
     {
+      "id": "ufrais_ufrais_services_historystore",
+      "label": "HistoryStore.swift",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MarginBreakdown",
+      "file_type": "code",
+      "norm_label": "historystore.swift",
+      "source_file": "UFrais/UFrais/Services/HistoryStore.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "ufrais_ufrais_services_trendfeedservice",
+      "label": "TrendFeedService.swift",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MarginBreakdown",
+      "file_type": "code",
+      "norm_label": "trendfeedservice.swift",
+      "source_file": "UFrais/UFrais/Services/TrendFeedService.swift",
+      "source_location": "L1"
+    },
+    {
       "id": "ufrais_ufrais_theme_utheme_double_euros",
       "label": ".euros",
       "_origin": "ast",
       "community": 4,
-      "community_name": "VATRate",
+      "community_name": "MarginBreakdown",
       "file_type": "code",
       "norm_label": ".euros",
       "source_file": "UFrais/UFrais/Theme/UTheme.swift",
@@ -2373,7 +3164,7 @@
       "label": ".eurosCompact",
       "_origin": "ast",
       "community": 4,
-      "community_name": "VATRate",
+      "community_name": "MarginBreakdown",
       "file_type": "code",
       "norm_label": ".euroscompact",
       "source_file": "UFrais/UFrais/Theme/UTheme.swift",
@@ -2384,7 +3175,7 @@
       "label": ".numberFR",
       "_origin": "ast",
       "community": 4,
-      "community_name": "VATRate",
+      "community_name": "MarginBreakdown",
       "file_type": "code",
       "norm_label": ".numberfr",
       "source_file": "UFrais/UFrais/Theme/UTheme.swift",
@@ -2395,22 +3186,11 @@
       "label": ".percentFR",
       "_origin": "ast",
       "community": 4,
-      "community_name": "VATRate",
+      "community_name": "MarginBreakdown",
       "file_type": "code",
       "norm_label": ".percentfr",
       "source_file": "UFrais/UFrais/Theme/UTheme.swift",
       "source_location": "L58"
-    },
-    {
-      "id": "ufrais_ufrais_theme_utheme_swift_string",
-      "label": "String",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "VATRate",
-      "file_type": "code",
-      "norm_label": "string",
-      "source_file": "",
-      "source_location": ""
     },
     {
       "id": "claude_skills_graphify_skill",
@@ -2772,13 +3552,13 @@
       "source_location": ""
     },
     {
-      "id": "ufrais_ufrais_services_trendfeedservice_swift_string",
-      "label": "String",
+      "id": "ufrais_ufrais_services_trendfeedservice_swift_url",
+      "label": "URL",
       "_origin": "ast",
       "community": 6,
       "community_name": "TrendFeedService",
       "file_type": "code",
-      "norm_label": "string",
+      "norm_label": "url",
       "source_file": "",
       "source_location": ""
     },
@@ -2792,17 +3572,6 @@
       "norm_label": ".topitems",
       "source_file": "UFrais/UFrais/Services/TrendFeedService.swift",
       "source_location": "L50"
-    },
-    {
-      "id": "url",
-      "label": "URL",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "TrendFeedService",
-      "file_type": "code",
-      "norm_label": "url",
-      "source_file": "",
-      "source_location": ""
     },
     {
       "id": "claude_skills_graphify_references_exports",
@@ -3001,17 +3770,6 @@
       "source_location": ""
     },
     {
-      "id": "ufrais_ufrais_views_components_swift_string",
-      "label": "String",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "Components.swift",
-      "file_type": "code",
-      "norm_label": "string",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
       "id": "ufrais_ufrais_views_components_ulogomark_body",
       "label": ".body",
       "_origin": "ast",
@@ -3034,145 +3792,222 @@
       "source_location": ""
     },
     {
-      "id": "ufrais_ufrais_models_calculatorengine_marginbreakdown_coefficient",
-      "label": ".coefficient",
+      "id": "ufrais_ufrais_services_openfoodfactsclient_competitorgap_absdifference",
+      "label": ".absDifference",
       "_origin": "ast",
       "community": 9,
-      "community_name": "MarginBreakdown",
+      "community_name": "ConcurrentView",
       "file_type": "code",
-      "norm_label": ".coefficient",
-      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
-      "source_location": "L46"
+      "norm_label": ".absdifference",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L112"
     },
     {
-      "id": "ufrais_ufrais_models_calculatorengine_marginbreakdown_grossmargin",
-      "label": ".grossMargin",
+      "id": "ufrais_ufrais_services_openfoodfactsclient_competitorgap_difference",
+      "label": ".difference",
       "_origin": "ast",
       "community": 9,
-      "community_name": "MarginBreakdown",
+      "community_name": "ConcurrentView",
       "file_type": "code",
-      "norm_label": ".grossmargin",
-      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
-      "source_location": "L43"
+      "norm_label": ".difference",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L111"
     },
     {
-      "id": "ufrais_ufrais_models_calculatorengine_marginbreakdown_isloss",
-      "label": ".isLoss",
+      "id": "ufrais_ufrais_services_openfoodfactsclient_competitorgap_iammoreexpensive",
+      "label": ".iAmMoreExpensive",
       "_origin": "ast",
       "community": 9,
-      "community_name": "MarginBreakdown",
+      "community_name": "ConcurrentView",
       "file_type": "code",
-      "norm_label": ".isloss",
-      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
-      "source_location": "L53"
+      "norm_label": ".iammoreexpensive",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L125"
     },
     {
-      "id": "ufrais_ufrais_models_calculatorengine_marginbreakdown_isvalid",
-      "label": ".isValid",
+      "id": "ufrais_ufrais_services_openfoodfactsclient_competitorgap_isaligned",
+      "label": ".isAligned",
       "_origin": "ast",
       "community": 9,
-      "community_name": "MarginBreakdown",
+      "community_name": "ConcurrentView",
       "file_type": "code",
-      "norm_label": ".isvalid",
-      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
-      "source_location": "L52"
+      "norm_label": ".isaligned",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L124"
     },
     {
-      "id": "ufrais_ufrais_models_calculatorengine_marginbreakdown_marginrate",
-      "label": ".marginRate",
+      "id": "ufrais_ufrais_services_openfoodfactsclient_competitorgap_percentvscompetitor",
+      "label": ".percentVsCompetitor",
       "_origin": "ast",
       "community": 9,
-      "community_name": "MarginBreakdown",
+      "community_name": "ConcurrentView",
       "file_type": "code",
-      "norm_label": ".marginrate",
-      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
-      "source_location": "L44"
+      "norm_label": ".percentvscompetitor",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L113"
     },
     {
-      "id": "ufrais_ufrais_models_calculatorengine_marginbreakdown_marquerate",
-      "label": ".marqueRate",
+      "id": "ufrais_ufrais_services_openfoodfactsclient_competitorgap_verdict",
+      "label": ".verdict",
       "_origin": "ast",
       "community": 9,
-      "community_name": "MarginBreakdown",
+      "community_name": "ConcurrentView",
       "file_type": "code",
-      "norm_label": ".marquerate",
-      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
-      "source_location": "L45"
+      "norm_label": ".verdict",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L118"
     },
     {
-      "id": "ufrais_ufrais_models_calculatorengine_marginbreakdown_pattc",
-      "label": ".paTTC",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "MarginBreakdown",
-      "file_type": "code",
-      "norm_label": ".pattc",
-      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
-      "source_location": "L42"
-    },
-    {
-      "id": "ufrais_ufrais_models_calculatorengine_marginbreakdown_pvht",
-      "label": ".pvHT",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "MarginBreakdown",
-      "file_type": "code",
-      "norm_label": ".pvht",
-      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
-      "source_location": "L41"
-    },
-    {
-      "id": "ufrais_ufrais_models_calculatorengine_marginbreakdown_ttcmargin",
-      "label": ".ttcMargin",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "MarginBreakdown",
-      "file_type": "code",
-      "norm_label": ".ttcmargin",
-      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
-      "source_location": "L50"
-    },
-    {
-      "id": "ufrais_ufrais_models_calculatorengine_marginbreakdown_vatcollected",
-      "label": ".vatCollected",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "MarginBreakdown",
-      "file_type": "code",
-      "norm_label": ".vatcollected",
-      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
-      "source_location": "L47"
-    },
-    {
-      "id": "ufrais_ufrais_models_calculatorengine_marginbreakdown_vatdeductible",
-      "label": ".vatDeductible",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "MarginBreakdown",
-      "file_type": "code",
-      "norm_label": ".vatdeductible",
-      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
-      "source_location": "L48"
-    },
-    {
-      "id": "ufrais_ufrais_models_calculatorengine_marginbreakdown_vatnet",
-      "label": ".vatNet",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "MarginBreakdown",
-      "file_type": "code",
-      "norm_label": ".vatnet",
-      "source_file": "UFrais/UFrais/Models/CalculatorEngine.swift",
-      "source_location": "L49"
-    },
-    {
-      "id": "ufrais_ufrais_models_calculatorengine_swift_bool",
+      "id": "ufrais_ufrais_services_openfoodfactsclient_swift_bool",
       "label": "Bool",
       "_origin": "ast",
       "community": 9,
-      "community_name": "MarginBreakdown",
+      "community_name": "ConcurrentView",
       "file_type": "code",
       "norm_label": "bool",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "ufrais_ufrais_views_concurrentview_concurrentview_body",
+      "label": ".body",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "ConcurrentView",
+      "file_type": "code",
+      "norm_label": ".body",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L32"
+    },
+    {
+      "id": "ufrais_ufrais_views_concurrentview_concurrentview_gap",
+      "label": ".gap",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "ConcurrentView",
+      "file_type": "code",
+      "norm_label": ".gap",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L18"
+    },
+    {
+      "id": "ufrais_ufrais_views_concurrentview_concurrentview_header",
+      "label": ".header",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "ConcurrentView",
+      "file_type": "code",
+      "norm_label": ".header",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L66"
+    },
+    {
+      "id": "ufrais_ufrais_views_concurrentview_concurrentview_mybreakdown",
+      "label": ".myBreakdown",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "ConcurrentView",
+      "file_type": "code",
+      "norm_label": ".mybreakdown",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L25"
+    },
+    {
+      "id": "ufrais_ufrais_views_concurrentview_concurrentview_pricefields",
+      "label": ".priceFields",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "ConcurrentView",
+      "file_type": "code",
+      "norm_label": ".pricefields",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L169"
+    },
+    {
+      "id": "ufrais_ufrais_views_concurrentview_concurrentview_scanblock",
+      "label": ".scanBlock",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "ConcurrentView",
+      "file_type": "code",
+      "norm_label": ".scanblock",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L86"
+    },
+    {
+      "id": "ufrais_ufrais_views_concurrentview_concurrentview_websearchbutton",
+      "label": ".webSearchButton",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "ConcurrentView",
+      "file_type": "code",
+      "norm_label": ".websearchbutton",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L245"
+    },
+    {
+      "id": "ufrais_ufrais_views_concurrentview_field_barcode",
+      "label": "barcode",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "ConcurrentView",
+      "file_type": "code",
+      "norm_label": "barcode",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L16"
+    },
+    {
+      "id": "ufrais_ufrais_views_concurrentview_field_competitor",
+      "label": "competitor",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "ConcurrentView",
+      "file_type": "code",
+      "norm_label": "competitor",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L16"
+    },
+    {
+      "id": "ufrais_ufrais_views_concurrentview_field_my",
+      "label": "my",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "ConcurrentView",
+      "file_type": "code",
+      "norm_label": "my",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L16"
+    },
+    {
+      "id": "ufrais_ufrais_views_concurrentview_field_pa",
+      "label": "pa",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "ConcurrentView",
+      "file_type": "code",
+      "norm_label": "pa",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L16"
+    },
+    {
+      "id": "ufrais_ufrais_views_concurrentview_swift_url",
+      "label": "URL",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "ConcurrentView",
+      "file_type": "code",
+      "norm_label": "url",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "view",
+      "label": "View",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "ConcurrentView",
+      "file_type": "code",
+      "norm_label": "view",
       "source_file": "",
       "source_location": ""
     }
@@ -3187,7 +4022,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "UFrais/UFrais/ContentView.swift",
-      "source_location": "L66",
+      "source_location": "L69",
       "weight": 1.0
     },
     {
@@ -3236,6 +4071,30 @@
       "context": "call",
       "source_file": "UFrais/UFrais/Services/HistoryStore.swift",
       "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactsclient_lookup",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactserror_network",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactsclient_lookup",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_scannedproduct",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L68",
       "weight": 1.0
     },
     {
@@ -3356,6 +4215,54 @@
       "context": "call",
       "source_file": "UFrais/UFrais/Services/TrendFeedService.swift",
       "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_barcodescannersheet_body",
+      "target": "ufrais_ufrais_views_barcodescannerview_datascannerrepresentable",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_coordinator_datascanner",
+      "target": "ufrais_ufrais_views_barcodescannerview_coordinator_emit",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L106",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_datascannerrepresentable_makecoordinator",
+      "target": "ufrais_ufrais_views_barcodescannerview_coordinator",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_datascannerrepresentable_makeuiviewcontroller",
+      "target": "datascannerviewcontroller",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L70",
       "weight": 1.0
     },
     {
@@ -3827,6 +4734,234 @@
       "weight": 1.0
     },
     {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_body",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_productcard",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_body",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_gapcard",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_body",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_margincard",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_body",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_lookup",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_gap",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_parse",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_gap",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_competitorgap",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_gapcard",
+      "target": "ufrais_ufrais_theme_utheme_ufont_display",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L216",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_gapcard",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_metric",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L220",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_header",
+      "target": "ufrais_ufrais_theme_utheme_ufont_display",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_header",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_body",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_margincard",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_metric",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L238",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_metric",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_body",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L273",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_mybreakdown",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_parse",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_mybreakdown",
+      "target": "ufrais_ufrais_models_calculatorengine_marginbreakdown",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_pricefields",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_body",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_scanblock",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_lookup",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_scanblock",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_body",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_websearchbutton",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_searchurl",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L248",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_websearchbutton",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_body",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L251",
+      "weight": 1.0
+    },
+    {
       "source": "ufrais_ufrais_views_tendancesview_tendancesview_body",
       "target": "ufrais_ufrais_views_tendancesview_flowplatforms_body",
       "relation": "calls",
@@ -3991,7 +5126,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "UFrais/UFrais/ContentView.swift",
-      "source_location": "L40",
+      "source_location": "L43",
       "weight": 1.0
     },
     {
@@ -4123,7 +5258,7 @@
       "confidence_score": 1.0,
       "context": "field",
       "source_file": "UFrais/UFrais/ContentView.swift",
-      "source_location": "L24",
+      "source_location": "L26",
       "weight": 1.0
     },
     {
@@ -4188,7 +5323,7 @@
     },
     {
       "source": "ufrais_ufrais_models_calculatorengine_savedcalculation",
-      "target": "ufrais_ufrais_models_calculatorengine_swift_string",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4224,7 +5359,7 @@
     },
     {
       "source": "ufrais_ufrais_models_calculatorengine_vatrate",
-      "target": "ufrais_ufrais_models_calculatorengine_swift_string",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4308,7 +5443,7 @@
     },
     {
       "source": "ufrais_ufrais_models_domain_trendingproduct",
-      "target": "string",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4320,7 +5455,7 @@
     },
     {
       "source": "ufrais_ufrais_models_domain_trendsource",
-      "target": "string",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4344,7 +5479,7 @@
     },
     {
       "source": "ufrais_ufrais_models_domain_trendspayload",
-      "target": "string",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4379,6 +5514,114 @@
       "weight": 1.0
     },
     {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_competitorgap",
+      "target": "ufrais_ufrais_theme_utheme_double",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_competitorgap",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_competitorgap",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_swift_bool",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_offproduct",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_offresponse",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_swift_int",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_offresponse",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_offproduct",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactserror",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_scannedproduct",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_scannedproduct",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_swift_url",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
       "source": "ufrais_ufrais_services_trendfeedservice_trendfeedservice",
       "target": "ufrais_ufrais_services_trendfeedservice_swift_date",
       "relation": "references",
@@ -4392,7 +5635,7 @@
     },
     {
       "source": "ufrais_ufrais_services_trendfeedservice_trendfeedservice",
-      "target": "ufrais_ufrais_services_trendfeedservice_swift_string",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4404,7 +5647,7 @@
     },
     {
       "source": "ufrais_ufrais_services_trendfeedservice_trendfeedservice",
-      "target": "url",
+      "target": "ufrais_ufrais_services_trendfeedservice_swift_url",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4452,7 +5695,7 @@
     },
     {
       "source": "ufrais_ufrais_theme_utheme_double",
-      "target": "ufrais_ufrais_theme_utheme_swift_string",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4472,6 +5715,78 @@
       "context": "field",
       "source_file": "UFrais/UFrais/UFraisApp.swift",
       "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_barcodescannersheet",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_barcodescannersheet",
+      "target": "void",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_coordinator",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_coordinator",
+      "target": "void",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_datascannerrepresentable",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_datascannerrepresentable",
+      "target": "void",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L67",
       "weight": 1.0
     },
     {
@@ -4536,7 +5851,7 @@
     },
     {
       "source": "ufrais_ufrais_views_components_decimalfield",
-      "target": "ufrais_ufrais_views_components_swift_string",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4548,7 +5863,7 @@
     },
     {
       "source": "ufrais_ufrais_views_components_kpistat",
-      "target": "ufrais_ufrais_views_components_swift_string",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4691,8 +6006,68 @@
       "weight": 1.0
     },
     {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview",
+      "target": "ufrais_ufrais_models_calculatorengine_vatrate",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_competitorgap",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview",
+      "target": "ufrais_ufrais_models_calculatorengine_marginbreakdown",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_scannedproduct",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
       "source": "ufrais_ufrais_views_tendancesview_flowplatforms",
-      "target": "ufrais_ufrais_views_tendancesview_swift_string",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4764,7 +6139,7 @@
     },
     {
       "source": "ufrais_ufrais_views_tendancesview_trenddetailview",
-      "target": "ufrais_ufrais_views_tendancesview_swift_string",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4859,6 +6234,18 @@
       "weight": 1.0
     },
     {
+      "source": "ufrais_ufrais_services_openfoodfactsclient",
+      "target": "foundation",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
       "source": "ufrais_ufrais_services_trendfeedservice",
       "target": "foundation",
       "relation": "imports",
@@ -4907,6 +6294,30 @@
       "weight": 1.0
     },
     {
+      "source": "ufrais_ufrais_views_barcodescannerview",
+      "target": "swiftui",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview",
+      "target": "visionkit",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
       "source": "ufrais_ufrais_views_calculatorview",
       "target": "swiftui",
       "relation": "imports",
@@ -4927,6 +6338,18 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "UFrais/UFrais/Views/Components.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview",
+      "target": "swiftui",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
       "source_location": "L1",
       "weight": 1.0
     },
@@ -5016,7 +6439,7 @@
     },
     {
       "source": "ufrais_ufrais_models_calculatorengine_savedcalculation_init",
-      "target": "ufrais_ufrais_models_calculatorengine_swift_string",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -5063,6 +6486,18 @@
       "weight": 1.0
     },
     {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactsclient_lookup",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
       "source": "ufrais_ufrais_services_trendfeedservice_trendfeedservice_apply",
       "target": "ufrais_ufrais_models_domain_trendspayload",
       "relation": "references",
@@ -5076,7 +6511,7 @@
     },
     {
       "source": "ufrais_ufrais_services_trendfeedservice_trendfeedservice_apply",
-      "target": "ufrais_ufrais_services_trendfeedservice_swift_string",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -5147,6 +6582,138 @@
       "weight": 1.0
     },
     {
+      "source": "ufrais_ufrais_views_barcodescannerview_coordinator_datascanner",
+      "target": "datascannerviewcontroller",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_coordinator_datascanner",
+      "target": "recognizeditem",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_coordinator_emit",
+      "target": "datascannerviewcontroller",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_coordinator_emit",
+      "target": "recognizeditem",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_coordinator_init",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L101",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_coordinator_init",
+      "target": "void",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L101",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_datascannerrepresentable_dismantleuiviewcontroller",
+      "target": "datascannerviewcontroller",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_datascannerrepresentable_dismantleuiviewcontroller",
+      "target": "ufrais_ufrais_views_barcodescannerview_coordinator",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_datascannerrepresentable_makeuiviewcontroller",
+      "target": "context",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_datascannerrepresentable_updateuiviewcontroller",
+      "target": "context",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_datascannerrepresentable_updateuiviewcontroller",
+      "target": "datascannerviewcontroller",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
       "source": "ufrais_ufrais_views_calculatorview_calculatorview_format",
       "target": "ufrais_ufrais_theme_utheme_double",
       "relation": "references",
@@ -5160,7 +6727,7 @@
     },
     {
       "source": "ufrais_ufrais_views_calculatorview_calculatorview_mini",
-      "target": "string",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -5184,7 +6751,7 @@
     },
     {
       "source": "ufrais_ufrais_views_calculatorview_calculatorview_parse",
-      "target": "string",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -5196,7 +6763,7 @@
     },
     {
       "source": "ufrais_ufrais_views_calculatorview_calculatorview_resultrow",
-      "target": "string",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -5228,6 +6795,90 @@
       "context": "parameter_type",
       "source_file": "UFrais/UFrais/Views/Components.swift",
       "source_location": "L225",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_gapcard",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_competitorgap",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L213",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_lookup",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L285",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_margincard",
+      "target": "ufrais_ufrais_models_calculatorengine_marginbreakdown",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L233",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_metric",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L270",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_parse",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L303",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_productcard",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_scannedproduct",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L130",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_searchurl",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L261",
       "weight": 1.0
     },
     {
@@ -5349,7 +7000,7 @@
     },
     {
       "source": "ufrais_ufrais_views_calculatorview_calculatorview_format",
-      "target": "string",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -5378,8 +7029,23 @@
       "weight": 1.0
     },
     {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_parse",
+      "target": "ufrais_ufrais_theme_utheme_double",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "swift_plain_return": true
+      },
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L303",
+      "weight": 1.0
+    },
+    {
       "source": "ufrais_ufrais_services_trendfeedservice_trendfeedservice_extractrsstitles",
-      "target": "ufrais_ufrais_services_trendfeedservice_swift_string",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -5462,6 +7128,66 @@
       "weight": 1.0
     },
     {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_gapcard",
+      "target": "view",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L213",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_margincard",
+      "target": "view",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L233",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_metric",
+      "target": "view",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L270",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_productcard",
+      "target": "view",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L130",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_searchurl",
+      "target": "ufrais_ufrais_views_concurrentview_swift_url",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L261",
+      "weight": 1.0
+    },
+    {
       "source": "ufrais_ufrais_views_tendancesview_trenddetailview_content",
       "target": "view",
       "relation": "references",
@@ -5476,6 +7202,17 @@
     {
       "source": "ufrais_ufrais_contentview_apptab",
       "target": "ufrais_ufrais_contentview_apptab_calcul",
+      "relation": "case_of",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/ContentView.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_contentview_apptab",
+      "target": "ufrais_ufrais_contentview_apptab_concurrent",
       "relation": "case_of",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -5661,6 +7398,105 @@
       "weight": 1.0
     },
     {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_codingkeys",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_codingkeys_productname",
+      "relation": "case_of",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_codingkeys",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_codingkeys_productnamefr",
+      "relation": "case_of",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_codingkeys",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_codingkeys_brands",
+      "relation": "case_of",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_codingkeys",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_codingkeys_categories",
+      "relation": "case_of",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_codingkeys",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_codingkeys_quantity",
+      "relation": "case_of",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_codingkeys",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_codingkeys_imagefrontsmallurl",
+      "relation": "case_of",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L95",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactserror",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactserror_invalidbarcode",
+      "relation": "case_of",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactserror",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactserror_notfound",
+      "relation": "case_of",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactserror",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactserror_network",
+      "relation": "case_of",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
       "source": "ufrais_ufrais_views_calculatorview_mode",
       "target": "ufrais_ufrais_views_calculatorview_mode_marge",
       "relation": "case_of",
@@ -5691,6 +7527,50 @@
       "confidence_score": 1.0,
       "source_file": "UFrais/UFrais/Views/CalculatorView.swift",
       "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_field",
+      "target": "ufrais_ufrais_views_concurrentview_field_barcode",
+      "relation": "case_of",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_field",
+      "target": "ufrais_ufrais_views_concurrentview_field_competitor",
+      "relation": "case_of",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_field",
+      "target": "ufrais_ufrais_views_concurrentview_field_my",
+      "relation": "case_of",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_field",
+      "target": "ufrais_ufrais_views_concurrentview_field_pa",
+      "relation": "case_of",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L16",
       "weight": 1.0
     },
     {
@@ -6289,7 +8169,7 @@
     },
     {
       "source": "readme_u_frais_super_u_lign\u00e9",
-      "target": "readme_calculateur",
+      "target": "readme_concurrent_scan",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -6300,13 +8180,24 @@
     },
     {
       "source": "readme_u_frais_super_u_lign\u00e9",
+      "target": "readme_calculateur",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_u_frais_super_u_lign\u00e9",
       "target": "readme_tendances_web",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L16",
+      "source_location": "L25",
       "weight": 1.0
     },
     {
@@ -6317,7 +8208,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L26",
+      "source_location": "L35",
       "weight": 1.0
     },
     {
@@ -6328,7 +8219,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L35",
+      "source_location": "L44",
       "weight": 1.0
     },
     {
@@ -6339,7 +8230,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L43",
+      "source_location": "L52",
       "weight": 1.0
     },
     {
@@ -6350,7 +8241,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L50",
+      "source_location": "L59",
       "weight": 1.0
     },
     {
@@ -6361,7 +8252,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "UFrais/UFrais/ContentView.swift",
-      "source_location": "L23",
+      "source_location": "L25",
       "weight": 1.0
     },
     {
@@ -6497,6 +8388,94 @@
       "weight": 1.0
     },
     {
+      "source": "ufrais_ufrais_services_openfoodfactsclient",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_competitorgap",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactserror",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_scannedproduct",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactsclient",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_offproduct",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_codingkeys",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactsclient",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_offresponse",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactsclient",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_offproduct",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
       "source": "ufrais_ufrais_services_trendfeedservice",
       "target": "ufrais_ufrais_services_trendfeedservice_trendfeedservice",
       "relation": "contains",
@@ -6560,6 +8539,39 @@
       "confidence_score": 1.0,
       "source_file": "UFrais/UFrais/UFraisApp.swift",
       "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview",
+      "target": "ufrais_ufrais_views_barcodescannerview_barcodescannersheet",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview",
+      "target": "ufrais_ufrais_views_barcodescannerview_datascannerrepresentable",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_datascannerrepresentable",
+      "target": "ufrais_ufrais_views_barcodescannerview_coordinator",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L97",
       "weight": 1.0
     },
     {
@@ -6695,6 +8707,28 @@
       "weight": 1.0
     },
     {
+      "source": "ufrais_ufrais_views_concurrentview",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview",
+      "target": "ufrais_ufrais_views_concurrentview_field",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
       "source": "ufrais_ufrais_views_tendancesview",
       "target": "ufrais_ufrais_views_tendancesview_trendcard",
       "relation": "contains",
@@ -6762,7 +8796,7 @@
     },
     {
       "source": "ufrais_ufrais_contentview_apptab",
-      "target": "string",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
       "relation": "implements",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -6779,7 +8813,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "UFrais/UFrais/ContentView.swift",
-      "source_location": "L23",
+      "source_location": "L25",
       "weight": 1.0
     },
     {
@@ -6916,7 +8950,7 @@
     },
     {
       "source": "ufrais_ufrais_models_domain_rayonkind",
-      "target": "string",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
       "relation": "implements",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -6949,7 +8983,7 @@
     },
     {
       "source": "ufrais_ufrais_models_domain_trendheat",
-      "target": "string",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
       "relation": "implements",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7036,6 +9070,83 @@
       "weight": 1.0
     },
     {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_codingkeys",
+      "target": "codingkey",
+      "relation": "implements",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_codingkeys",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
+      "relation": "implements",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_competitorgap",
+      "target": "equatable",
+      "relation": "implements",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_offproduct",
+      "target": "decodable",
+      "relation": "implements",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_offresponse",
+      "target": "decodable",
+      "relation": "implements",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactserror",
+      "target": "localizederror",
+      "relation": "implements",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_scannedproduct",
+      "target": "equatable",
+      "relation": "implements",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
       "source": "ufrais_ufrais_ufraisapp_ufraisapp",
       "target": "app",
       "relation": "implements",
@@ -7044,6 +9155,39 @@
       "confidence_score": 1.0,
       "source_file": "UFrais/UFrais/UFraisApp.swift",
       "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_barcodescannersheet",
+      "target": "view",
+      "relation": "implements",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_coordinator",
+      "target": "datascannerviewcontrollerdelegate",
+      "relation": "implements",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_datascannerrepresentable",
+      "target": "uiviewcontrollerrepresentable",
+      "relation": "implements",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L66",
       "weight": 1.0
     },
     {
@@ -7070,7 +9214,7 @@
     },
     {
       "source": "ufrais_ufrais_views_calculatorview_mode",
-      "target": "string",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string",
       "relation": "implements",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7179,6 +9323,17 @@
       "weight": 1.0
     },
     {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview",
+      "target": "view",
+      "relation": "implements",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
       "source": "ufrais_ufrais_views_tendancesview_flowplatforms",
       "target": "view",
       "relation": "implements",
@@ -7245,6 +9400,17 @@
       "weight": 1.0
     },
     {
+      "source": "ufrais_ufrais_views_barcodescannerview_coordinator",
+      "target": "nsobject",
+      "relation": "inherits",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
       "source": "ufrais_ufrais_contentview_apptab",
       "target": "ufrais_ufrais_contentview_apptab_symbol",
       "relation": "method",
@@ -7252,7 +9418,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "UFrais/UFrais/ContentView.swift",
-      "source_location": "L15",
+      "source_location": "L16",
       "weight": 1.0
     },
     {
@@ -7285,7 +9451,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "UFrais/UFrais/ContentView.swift",
-      "source_location": "L27",
+      "source_location": "L29",
       "weight": 1.0
     },
     {
@@ -7296,7 +9462,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "UFrais/UFrais/ContentView.swift",
-      "source_location": "L43",
+      "source_location": "L46",
       "weight": 1.0
     },
     {
@@ -7663,6 +9829,116 @@
       "weight": 1.0
     },
     {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_competitorgap",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_competitorgap_difference",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L111",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_competitorgap",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_competitorgap_absdifference",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_competitorgap",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_competitorgap_percentvscompetitor",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_competitorgap",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_competitorgap_verdict",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_competitorgap",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_competitorgap_isaligned",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L124",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_competitorgap",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_competitorgap_iammoreexpensive",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactsclient",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactsclient_lookup",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactserror",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactserror_errordescription",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_scannedproduct",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_scannedproduct_displayname",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_string",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_string_nilifempty",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L101",
+      "weight": 1.0
+    },
+    {
       "source": "ufrais_ufrais_services_trendfeedservice_trendfeedservice",
       "target": "ufrais_ufrais_services_trendfeedservice_trendfeedservice_loadbundled",
       "relation": "method",
@@ -7869,6 +10145,94 @@
       "confidence_score": 1.0,
       "source_file": "UFrais/UFrais/UFraisApp.swift",
       "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_barcodescannersheet",
+      "target": "ufrais_ufrais_views_barcodescannerview_barcodescannersheet_body",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_coordinator",
+      "target": "ufrais_ufrais_views_barcodescannerview_coordinator_init",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L101",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_coordinator",
+      "target": "ufrais_ufrais_views_barcodescannerview_coordinator_datascanner",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_coordinator",
+      "target": "ufrais_ufrais_views_barcodescannerview_coordinator_emit",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_datascannerrepresentable",
+      "target": "ufrais_ufrais_views_barcodescannerview_datascannerrepresentable_makeuiviewcontroller",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_datascannerrepresentable",
+      "target": "ufrais_ufrais_views_barcodescannerview_datascannerrepresentable_updateuiviewcontroller",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_datascannerrepresentable",
+      "target": "ufrais_ufrais_views_barcodescannerview_datascannerrepresentable_dismantleuiviewcontroller",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_barcodescannerview_datascannerrepresentable",
+      "target": "ufrais_ufrais_views_barcodescannerview_datascannerrepresentable_makecoordinator",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/BarcodeScannerView.swift",
+      "source_location": "L93",
       "weight": 1.0
     },
     {
@@ -8169,6 +10533,160 @@
       "weight": 1.0
     },
     {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_productcard",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L130",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_pricefields",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L169",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_gap",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_gapcard",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L213",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_margincard",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L233",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_websearchbutton",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L245",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_mybreakdown",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_searchurl",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L261",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_metric",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L270",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_lookup",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L285",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_parse",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L303",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_body",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_header",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview_scanblock",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
       "source": "ufrais_ufrais_views_tendancesview_flowplatforms",
       "target": "ufrais_ufrais_views_tendancesview_flowplatforms_body",
       "relation": "method",
@@ -8351,6 +10869,18 @@
       "weight": 1.0
     },
     {
+      "source": "ufrais_ufrais_services_openfoodfactsclient_openfoodfactsclient_lookup",
+      "target": "ufrais_ufrais_services_openfoodfactsclient_offproduct",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Services/OpenFoodFactsClient.swift",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
       "source": "ufrais_ufrais_views_calculatorview_calculatorview_historyblock",
       "target": "ufrais_ufrais_services_historystore_historystore",
       "relation": "references",
@@ -8419,7 +10949,19 @@
       "confidence_score": 0.85,
       "context": "call",
       "source_file": "UFrais/UFrais/ContentView.swift",
-      "source_location": "L31",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_contentview_contentview_body",
+      "target": "ufrais_ufrais_views_concurrentview_concurrentview",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "UFrais/UFrais/ContentView.swift",
+      "source_location": "L34",
       "weight": 1.0
     },
     {
@@ -8431,7 +10973,7 @@
       "confidence_score": 0.85,
       "context": "call",
       "source_file": "UFrais/UFrais/ContentView.swift",
-      "source_location": "L32",
+      "source_location": "L35",
       "weight": 1.0
     },
     {
@@ -8519,6 +11061,30 @@
       "weight": 1.0
     },
     {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_body",
+      "target": "ufrais_ufrais_views_barcodescannerview_barcodescannersheet",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "ufrais_ufrais_views_concurrentview_concurrentview_pricefields",
+      "target": "ufrais_ufrais_views_components_decimalfield",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "UFrais/UFrais/Views/ConcurrentView.swift",
+      "source_location": "L176",
+      "weight": 1.0
+    },
+    {
       "source": "ufrais_ufrais_views_tendancesview_tendancesview_filters",
       "target": "ufrais_ufrais_views_components_rayonchip",
       "relation": "calls",
@@ -8532,5 +11098,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "dd0769732d620ccb9e0e0679724e519c34aee8d8"
+  "built_at_commit": "e07a197fe498e74e3e6d61d456779f047762f266"
 }
