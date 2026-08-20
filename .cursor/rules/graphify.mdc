@@ -5,12 +5,14 @@ alwaysApply: true
 
 This project has a graphify knowledge graph at graphify-out/.
 
+**À CHAQUE interaction (nouveau message utilisateur), consulter le graphe en premier — pas l'historique de conversation.** Le chat n'est pas la source de vérité du code ; `graphify-out/graph.json` l'est. Ne pas « se remémorer » le projet depuis les messages précédents : relancer une requête graphe ciblée sur la demande du moment.
+
 **MANDATORY: Before using Read, Grep, Glob, or Bash to explore the codebase, you MUST run graphify first:**
 - `graphify query "<question>"` — scoped subgraph for any codebase or architecture question
 - `graphify path "<A>" "<B>"` — dependency path between two symbols
 - `graphify explain "<concept>"` — all nodes related to a concept
 
-This applies to YOU and to every subagent you spawn. Include this rule explicitly in every subagent prompt that involves code exploration. Do not skip graphify because files are "already known" or because you are executing a plan — the graph surfaces cross-file dependencies and INFERRED edges that grep and Read cannot find.
+This applies to YOU and to every subagent you spawn. Include this rule explicitly in every subagent prompt that involves code exploration. Do not skip graphify because files are "already known", because you are executing a plan, or because the prior turn already discussed the topic — the graph surfaces cross-file dependencies and INFERRED edges that grep, Read, and conversation replay cannot find.
 
 Only use Read/Grep/Glob directly when:
 1. graphify has already oriented you and you need to modify or debug specific lines

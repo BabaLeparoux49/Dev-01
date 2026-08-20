@@ -60,7 +60,7 @@ struct CalculatorView: View {
                 Text("Calculateur")
                     .font(UFont.display(30))
                     .foregroundStyle(UColor.encre)
-                Text("Marges, marque, coefficient et TVA")
+                Text("Marges, marque, coefficient et TVA — sans données magasin")
                     .font(UFont.body(14, weight: .medium))
                     .foregroundStyle(UColor.ardoise)
             }

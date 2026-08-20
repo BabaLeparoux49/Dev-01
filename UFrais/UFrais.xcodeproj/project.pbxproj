@@ -12,17 +12,14 @@
 		BF0000000000000000000003 /* UTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000003 /* UTheme.swift */; };
 		BF0000000000000000000004 /* Domain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000004 /* Domain.swift */; };
 		BF0000000000000000000005 /* CalculatorEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000005 /* CalculatorEngine.swift */; };
-		BF0000000000000000000006 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000006 /* SampleData.swift */; };
-		BF0000000000000000000007 /* LiveFeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000007 /* LiveFeedService.swift */; };
+		BF0000000000000000000007 /* TrendFeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000007 /* TrendFeedService.swift */; };
 		BF0000000000000000000008 /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000008 /* HistoryStore.swift */; };
-		BF0000000000000000000009 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000009 /* HomeView.swift */; };
 		BF0000000000000000000010 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000010 /* CalculatorView.swift */; };
-		BF0000000000000000000011 /* HighValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000011 /* HighValueView.swift */; };
-		BF0000000000000000000012 /* RayonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000012 /* RayonsView.swift */; };
-		BF0000000000000000000013 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000013 /* ProductDetailView.swift */; };
+		BF0000000000000000000011 /* TendancesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000011 /* TendancesView.swift */; };
 		BF0000000000000000000014 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000014 /* Components.swift */; };
 		BF0000000000000000000015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000015 /* Assets.xcassets */; };
 		BF0000000000000000000016 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000016 /* Preview Assets.xcassets */; };
+		BF0000000000000000000017 /* trends.json in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000017 /* trends.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,17 +29,14 @@
 		FR0000000000000000000003 /* UTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTheme.swift; sourceTree = "<group>"; };
 		FR0000000000000000000004 /* Domain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domain.swift; sourceTree = "<group>"; };
 		FR0000000000000000000005 /* CalculatorEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorEngine.swift; sourceTree = "<group>"; };
-		FR0000000000000000000006 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
-		FR0000000000000000000007 /* LiveFeedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveFeedService.swift; sourceTree = "<group>"; };
+		FR0000000000000000000007 /* TrendFeedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendFeedService.swift; sourceTree = "<group>"; };
 		FR0000000000000000000008 /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
-		FR0000000000000000000009 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FR0000000000000000000010 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
-		FR0000000000000000000011 /* HighValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighValueView.swift; sourceTree = "<group>"; };
-		FR0000000000000000000012 /* RayonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RayonsView.swift; sourceTree = "<group>"; };
-		FR0000000000000000000013 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		FR0000000000000000000011 /* TendancesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendancesView.swift; sourceTree = "<group>"; };
 		FR0000000000000000000014 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
 		FR0000000000000000000015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FR0000000000000000000016 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FR0000000000000000000017 /* trends.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = trends.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +102,7 @@
 		AA0000000000000000000022 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				FR0000000000000000000006 /* SampleData.swift */,
+				FR0000000000000000000017 /* trends.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -116,7 +110,7 @@
 		AA0000000000000000000023 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				FR0000000000000000000007 /* LiveFeedService.swift */,
+				FR0000000000000000000007 /* TrendFeedService.swift */,
 				FR0000000000000000000008 /* HistoryStore.swift */,
 			);
 			path = Services;
@@ -125,11 +119,8 @@
 		AA0000000000000000000024 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FR0000000000000000000009 /* HomeView.swift */,
 				FR0000000000000000000010 /* CalculatorView.swift */,
-				FR0000000000000000000011 /* HighValueView.swift */,
-				FR0000000000000000000012 /* RayonsView.swift */,
-				FR0000000000000000000013 /* ProductDetailView.swift */,
+				FR0000000000000000000011 /* TendancesView.swift */,
 				FR0000000000000000000014 /* Components.swift */,
 			);
 			path = Views;
@@ -204,6 +195,7 @@
 			files = (
 				BF0000000000000000000016 /* Preview Assets.xcassets in Resources */,
 				BF0000000000000000000015 /* Assets.xcassets in Resources */,
+				BF0000000000000000000017 /* trends.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,14 +211,10 @@
 				BF0000000000000000000003 /* UTheme.swift in Sources */,
 				BF0000000000000000000004 /* Domain.swift in Sources */,
 				BF0000000000000000000005 /* CalculatorEngine.swift in Sources */,
-				BF0000000000000000000006 /* SampleData.swift in Sources */,
-				BF0000000000000000000007 /* LiveFeedService.swift in Sources */,
+				BF0000000000000000000007 /* TrendFeedService.swift in Sources */,
 				BF0000000000000000000008 /* HistoryStore.swift in Sources */,
-				BF0000000000000000000009 /* HomeView.swift in Sources */,
 				BF0000000000000000000010 /* CalculatorView.swift in Sources */,
-				BF0000000000000000000011 /* HighValueView.swift in Sources */,
-				BF0000000000000000000012 /* RayonsView.swift in Sources */,
-				BF0000000000000000000013 /* ProductDetailView.swift in Sources */,
+				BF0000000000000000000011 /* TendancesView.swift in Sources */,
 				BF0000000000000000000014 /* Components.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

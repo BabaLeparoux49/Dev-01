@@ -4,26 +4,26 @@
 - cluster-only mode — file stats not available
 
 ## Summary
-- 321 nodes · 581 edges · 21 communities (16 shown, 5 thin omitted)
-- Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 47 edges (avg confidence: 0.83)
+- 272 nodes · 465 edges · 21 communities (16 shown, 5 thin omitted)
+- Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 21 edges (avg confidence: 0.82)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4b9551d9`
+- Built from commit: `dd076973`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
-- MarginBreakdown
+- SavedCalculation
 - RayonKind
-- View
+- .display
 - CalculatorView
-- LiveFeedService
+- VATRate
 - What You Must Do When Invoked
-- HistoryStore
+- TrendFeedService
 - graphify reference: extra exports and benchmark
 - Components.swift
-- HighValueView
+- MarginBreakdown
 - AppTab
 - U Frais — Super U Ligné
 - graphify reference: query, path, explain
@@ -37,81 +37,81 @@
 - extraction-spec.md
 
 ## God Nodes (most connected - your core abstractions)
-1. `LiveFeedService` - 35 edges
-2. `FreshProduct` - 32 edges
-3. `RayonKind` - 30 edges
-4. `CalculatorView` - 26 edges
-5. `VATRate` - 23 edges
-6. `MarginBreakdown` - 23 edges
-7. `SavedCalculation` - 15 edges
-8. `LiveEvent` - 15 edges
-9. `UColor` - 14 edges
-10. `HighValueView` - 14 edges
+1. `CalculatorView` - 26 edges
+2. `RayonKind` - 23 edges
+3. `TrendFeedService` - 23 edges
+4. `MarginBreakdown` - 21 edges
+5. `VATRate` - 20 edges
+6. `TrendingProduct` - 18 edges
+7. `SavedCalculation` - 14 edges
+8. `HistoryStore` - 12 edges
+9. `TrendHeat` - 12 edges
+10. `UColor` - 12 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `.product` --references--> `LiveFeedService`  [INFERRED]
-  UFrais/UFrais/Views/ProductDetailView.swift → UFrais/UFrais/Services/LiveFeedService.swift
+- `.product` --references--> `TrendFeedService`  [INFERRED]
+  UFrais/UFrais/Views/TendancesView.swift → UFrais/UFrais/Services/TrendFeedService.swift
 - `.saveBlock` --calls--> `SavedCalculation`  [INFERRED]
   UFrais/UFrais/Views/CalculatorView.swift → UFrais/UFrais/Models/CalculatorEngine.swift
+- `UFraisApp` --calls--> `HistoryStore`  [INFERRED]
+  UFrais/UFrais/UFraisApp.swift → UFrais/UFrais/Services/HistoryStore.swift
 - `.body` --references--> `RayonKind`  [INFERRED]
   UFrais/UFrais/Views/Components.swift → UFrais/UFrais/Models/Domain.swift
-- `UFraisApp` --calls--> `LiveFeedService`  [INFERRED]
-  UFrais/UFrais/UFraisApp.swift → UFrais/UFrais/Services/LiveFeedService.swift
-- `.body` --calls--> `ContentView`  [INFERRED]
-  UFrais/UFrais/UFraisApp.swift → UFrais/UFrais/ContentView.swift
+- `.list` --references--> `TrendingProduct`  [INFERRED]
+  UFrais/UFrais/Views/TendancesView.swift → UFrais/UFrais/Models/Domain.swift
 
 ## Import Cycles
 - None detected.
 
 ## Communities (21 total, 5 thin omitted)
 
-### Community 0 - "MarginBreakdown"
-Cohesion: 0.06
-Nodes (34): Codable, Combine, Foundation, SampleCatalog, Bool, Int, String, MarginBreakdown (+26 more)
+### Community 0 - "SavedCalculation"
+Cohesion: 0.15
+Nodes (11): Combine, Equatable, Foundation, IndexSet, ObservableObject, SavedCalculation, Date, String (+3 more)
 
 ### Community 1 - "RayonKind"
-Cohesion: 0.07
-Nodes (30): Equatable, Identifiable, SwiftUI, Kind, alert, dlc, opportunity, sale (+22 more)
-
-### Community 2 - "View"
 Cohesion: 0.08
-Nodes (42): Font, StoreIdentity, CGFloat, UColor, UFont, View, .body, .body (+34 more)
+Nodes (34): CaseIterable, Codable, Hashable, Identifiable, RayonKind, boucherie, boulangerie, charcuterie (+26 more)
+
+### Community 2 - ".display"
+Cohesion: 0.13
+Nodes (23): Font, CGFloat, UColor, UFont, View, .body, .body, .body (+15 more)
 
 ### Community 3 - "CalculatorView"
-Cohesion: 0.13
-Nodes (23): String, CalculatorEngine, Double, .euros, .eurosCompact, .numberFR, .percentFR, String (+15 more)
+Cohesion: 0.20
+Nodes (18): String, CalculatorView, .body, .breakdown, .fields, .header, .margeResults, .modePicker (+10 more)
 
-### Community 4 - "LiveFeedService"
-Cohesion: 0.11
-Nodes (21): Hashable, Never, Task, FreshProduct, .contributionToday, .dlcAlert, .opportunityScore, .stockAlert (+13 more)
+### Community 4 - "VATRate"
+Cohesion: 0.15
+Nodes (15): CalculatorEngine, VATRate, alimentaire, .caption, .id, intermediaire, .label, normal (+7 more)
 
 ### Community 5 - "What You Must Do When Invoked"
 Cohesion: 0.08
 Nodes (24): For /graphify add and --watch, For /graphify query, For the commit hook and native CLAUDE.md integration, For --update and --cluster-only, /graphify, Honesty Rules, Interpreter guard for subcommands, Part A - Structural extraction for code files (+16 more)
 
-### Community 6 - "HistoryStore"
-Cohesion: 0.20
-Nodes (7): App, IndexSet, ObservableObject, Scene, HistoryStore, UFraisApp, .historyBlock
+### Community 6 - "TrendFeedService"
+Cohesion: 0.19
+Nodes (10): Data, JSONDecoder, JSONEncoder, Date, TrendsPayload, Date, String, TrendFeedService (+2 more)
 
 ### Community 7 - "graphify reference: extra exports and benchmark"
 Cohesion: 0.22
 Nodes (8): graphify reference: extra exports and benchmark, Step 6b - Wiki (only if --wiki flag), Step 7 - Neo4j export (only if --neo4j or --neo4j-push flag), Step 7a - FalkorDB export (only if --falkordb or --falkordb-push flag), Step 7b - SVG export (only if --svg flag), Step 7c - GraphML export (only if --graphml flag), Step 7d - MCP server (only if --mcp flag), Step 8 - Token reduction benchmark (only if total_words > 5000)
 
 ### Community 8 - "Components.swift"
-Cohesion: 0.17
-Nodes (12): Content, DecimalField, KPIStat, Shimmer, Sparkline, .body, CGFloat, Color (+4 more)
+Cohesion: 0.13
+Nodes (18): Content, DecimalField, KPIStat, LiveBadge, .body, RayonChip, .body, Shimmer (+10 more)
 
-### Community 9 - "HighValueView"
-Cohesion: 0.21
-Nodes (12): RayonChip, .body, HighValueView, .body, .eventRail, .filtered, .productList, .rankingPicker (+4 more)
+### Community 9 - "MarginBreakdown"
+Cohesion: 0.14
+Nodes (14): MarginBreakdown, .coefficient, .grossMargin, .isLoss, .isValid, .marginRate, .marqueRate, .paTTC (+6 more)
 
 ### Community 10 - "AppTab"
-Cohesion: 0.10
-Nodes (20): CaseIterable, AppTab, accueil, calcul, .id, rayons, .symbol, .title (+12 more)
+Cohesion: 0.13
+Nodes (15): App, Scene, SwiftUI, AppTab, calcul, .id, .symbol, tendances (+7 more)
 
 ### Community 11 - "U Frais — Super U Ligné"
 Cohesion: 0.25
-Nodes (7): Charte, Fonctionnalités, Formules magasin, Graphify (graphe de connaissances), Ouvrir dans Xcode, Structure, U Frais — Super U Ligné
+Nodes (7): Calculateur, Charte, Formules, Graphify, Ouvrir dans Xcode, Tendances (web), U Frais — Super U Ligné
 
 ### Community 12 - "graphify reference: query, path, explain"
 Cohesion: 0.33
@@ -130,24 +130,24 @@ Cohesion: 0.50
 Nodes (3): For --cluster-only, For --update (incremental re-extraction), graphify reference: incremental update and cluster-only
 
 ## Knowledge Gaps
-- **120 isolated node(s):** `StoreIdentity`, `alimentaire`, `.caption`, `.id`, `intermediaire` (+115 more)
+- **103 isolated node(s):** `StoreIdentity`, `.coefficient`, `.grossMargin`, `.isLoss`, `.isValid` (+98 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `LiveFeedService` connect `LiveFeedService` to `MarginBreakdown`, `RayonKind`, `View`, `CalculatorView`, `HistoryStore`, `HighValueView`?**
-  _High betweenness centrality (0.115) - this node is a cross-community bridge._
-- **Why does `FreshProduct` connect `LiveFeedService` to `MarginBreakdown`, `RayonKind`, `View`, `CalculatorView`, `HighValueView`?**
-  _High betweenness centrality (0.109) - this node is a cross-community bridge._
-- **Why does `Double` connect `CalculatorView` to `MarginBreakdown`, `RayonKind`, `View`, `LiveFeedService`, `Components.swift`?**
-  _High betweenness centrality (0.090) - this node is a cross-community bridge._
-- **Are the 4 inferred relationships involving `LiveFeedService` (e.g. with `UFraisApp` and `.eventRail`) actually correct?**
-  _`LiveFeedService` has 4 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 6 inferred relationships involving `FreshProduct` (e.g. with `.caJour` and `.margeJour`) actually correct?**
-  _`FreshProduct` has 6 INFERRED edges - model-reasoned connections that need verification._
-- **What connects `StoreIdentity`, `alimentaire`, `.caption` to the rest of the system?**
-  _120 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `MarginBreakdown` be split into smaller, more focused modules?**
-  _Cohesion score 0.06282051282051282 - nodes in this community are weakly interconnected._
+- **Why does `CalculatorView` connect `CalculatorView` to `SavedCalculation`, `RayonKind`, `VATRate`, `MarginBreakdown`, `AppTab`?**
+  _High betweenness centrality (0.110) - this node is a cross-community bridge._
+- **Why does `VATRate` connect `VATRate` to `SavedCalculation`, `MarginBreakdown`, `CalculatorView`, `RayonKind`?**
+  _High betweenness centrality (0.080) - this node is a cross-community bridge._
+- **Why does `TrendFeedService` connect `TrendFeedService` to `SavedCalculation`, `RayonKind`, `AppTab`, `.display`?**
+  _High betweenness centrality (0.080) - this node is a cross-community bridge._
+- **Are the 2 inferred relationships involving `TrendFeedService` (e.g. with `UFraisApp` and `.product`) actually correct?**
+  _`TrendFeedService` has 2 INFERRED edges - model-reasoned connections that need verification._
+- **What connects `StoreIdentity`, `.coefficient`, `.grossMargin` to the rest of the system?**
+  _103 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `RayonKind` be split into smaller, more focused modules?**
+  _Cohesion score 0.0761904761904762 - nodes in this community are weakly interconnected._
+- **Should `.display` be split into smaller, more focused modules?**
+  _Cohesion score 0.12873563218390804 - nodes in this community are weakly interconnected._

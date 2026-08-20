@@ -46,16 +46,6 @@ enum UFont {
     }
 }
 
-struct StoreIdentity {
-    static let name = "Super U Ligné"
-    static let city = "Ligné"
-    static let postalCode = "44850"
-    static let address = "89 rue du Souvenir"
-    static let department = "Loire-Atlantique"
-    static let role = "Adjoint de direction · Produits frais"
-    static let userFirstName = "Bastien"
-}
-
 extension Double {
     var euros: String {
         formatted(.currency(code: "EUR").locale(Locale(identifier: "fr_FR")))

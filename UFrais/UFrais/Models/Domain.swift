@@ -35,13 +35,6 @@ enum RayonKind: String, CaseIterable, Identifiable, Codable, Hashable {
         }
     }
 
-    var defaultVAT: VATRate {
-        switch self {
-        case .traiteur: return .intermediaire
-        default: return .alimentaire
-        }
-    }
-
     var tint: Color {
         switch self {
         case .fruitsLegumes: return UColor.vertEau
@@ -55,83 +48,61 @@ enum RayonKind: String, CaseIterable, Identifiable, Codable, Hashable {
     }
 }
 
-struct FreshProduct: Identifiable, Hashable {
-    let id: UUID
-    var name: String
-    var brand: String
-    var origin: String
-    var rayon: RayonKind
-    var paHT: Double
-    var pvTTC: Double
-    var vat: VATRate
-    var stock: Int
-    var facing: Int
-    var unitsSoldToday: Int
-    var dlcHours: Int?
-    var isPromo: Bool
-    var unit: String
-    var vaTrend: [Double]
+enum TrendHeat: String, Codable, CaseIterable {
+    case viral, hot, rising, steady
 
-    var breakdown: MarginBreakdown {
-        MarginBreakdown(paHT: paHT, pvTTC: pvTTC, vat: vat)
+    var label: String {
+        switch self {
+        case .viral: return "Viral"
+        case .hot: return "En vogue"
+        case .rising: return "En hausse"
+        case .steady: return "Stable"
+        }
     }
-
-    var contributionToday: Double {
-        breakdown.grossMargin * Double(unitsSoldToday)
-    }
-
-    var stockAlert: Bool { stock <= 4 }
-    var dlcAlert: Bool {
-        guard let dlcHours else { return false }
-        return dlcHours <= 18
-    }
-
-    var opportunityScore: Double {
-        breakdown.marqueRate * 0.45
-            + min(contributionToday / 80, 1) * 0.35
-            + (isPromo ? 0.08 : 0)
-            + (stockAlert ? 0.12 : 0)
-    }
-}
-
-struct LiveEvent: Identifiable, Equatable {
-    enum Kind: String {
-        case sale, alert, opportunity, dlc
-    }
-
-    let id: UUID
-    let date: Date
-    let kind: Kind
-    let title: String
-    let detail: String
-    let rayon: RayonKind
 
     var tint: Color {
-        switch kind {
-        case .sale: return UColor.vertEau
-        case .alert: return UColor.rouge
-        case .opportunity: return UColor.bleuSignature
-        case .dlc: return Color.orange
-        }
-    }
-
-    var symbol: String {
-        switch kind {
-        case .sale: return "cart.fill"
-        case .alert: return "exclamationmark.triangle.fill"
-        case .opportunity: return "sparkles"
-        case .dlc: return "clock.badge.exclamationmark.fill"
+        switch self {
+        case .viral: return UColor.rouge
+        case .hot: return Color.orange
+        case .rising: return UColor.bleuSignature
+        case .steady: return UColor.vertEau
         }
     }
 }
 
-struct RayonSnapshot: Identifiable {
-    var kind: RayonKind
-    var caTTC: Double
-    var marge: Double
-    var marque: Double
-    var ruptures: Int
-    var dlc: Int
+struct TrendSource: Identifiable, Codable, Hashable {
+    var id: String { url }
+    var title: String
+    var url: String
+}
 
-    var id: RayonKind { kind }
+struct TrendingProduct: Identifiable, Codable, Hashable {
+    var id: String
+    var name: String
+    var subtitle: String
+    var rayon: RayonKind
+    var buzzScore: Int
+    var heat: TrendHeat
+    var platforms: [String]
+    var why: String
+    var rayonTip: String
+    var sources: [TrendSource]
+    var tags: [String]
+}
+
+struct TrendsPayload: Codable {
+    var updatedAt: Date
+    var headline: String
+    var sourceNote: String
+    var items: [TrendingProduct]
+}
+
+struct StoreIdentity {
+    static let name = "Super U Ligné"
+    static let city = "Ligné"
+    static let postalCode = "44850"
+    static let address = "89 rue du Souvenir"
+    static let department = "Loire-Atlantique"
+    static let role = "Adjoint de direction · Produits frais"
+    static let userFirstName = "Bastien"
 }

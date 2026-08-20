@@ -1,41 +1,35 @@
 import SwiftUI
 
 enum AppTab: String, CaseIterable, Identifiable {
-    case accueil, calcul, valeur, rayons
+    case calcul, tendances
 
     var id: String { rawValue }
 
     var title: String {
         switch self {
-        case .accueil: return "Accueil"
         case .calcul: return "Calcul"
-        case .valeur: return "Forte VA"
-        case .rayons: return "Rayons"
+        case .tendances: return "Tendances"
         }
     }
 
     var symbol: String {
         switch self {
-        case .accueil: return "house.fill"
         case .calcul: return "plusminus.circle.fill"
-        case .valeur: return "bolt.heart.fill"
-        case .rayons: return "square.grid.2x2.fill"
+        case .tendances: return "flame.fill"
         }
     }
 }
 
 struct ContentView: View {
-    @State private var tab: AppTab = .accueil
+    @State private var tab: AppTab = .calcul
     @Namespace private var tabNS
 
     var body: some View {
         VStack(spacing: 0) {
             Group {
                 switch tab {
-                case .accueil: HomeView()
                 case .calcul: CalculatorView()
-                case .valeur: HighValueView()
-                case .rayons: RayonsView()
+                case .tendances: TendancesView()
                 }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -93,6 +87,6 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
-        .environmentObject(LiveFeedService())
+        .environmentObject(TrendFeedService())
         .environmentObject(HistoryStore())
 }

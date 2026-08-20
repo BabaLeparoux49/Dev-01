@@ -2,7 +2,7 @@ import SwiftUI
 
 @main
 struct UFraisApp: App {
-    @StateObject private var feed = LiveFeedService()
+    @StateObject private var trends = TrendFeedService()
     @StateObject private var history = HistoryStore()
     @State private var showSplash = true
 
@@ -10,7 +10,7 @@ struct UFraisApp: App {
         WindowGroup {
             ZStack {
                 ContentView()
-                    .environmentObject(feed)
+                    .environmentObject(trends)
                     .environmentObject(history)
 
                 if showSplash {

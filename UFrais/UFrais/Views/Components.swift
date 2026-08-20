@@ -26,7 +26,7 @@ struct SplashView: View {
                     Text(StoreIdentity.name)
                         .font(UFont.body(16, weight: .semibold))
                         .foregroundStyle(.white.opacity(0.88))
-                    Text("Pilotage des produits frais")
+                    Text("Calculateur & tendances frais")
                         .font(UFont.body(14, weight: .medium))
                         .foregroundStyle(.white.opacity(0.7))
                 }

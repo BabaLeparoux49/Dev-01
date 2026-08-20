@@ -1,0 +1,158 @@
+{
+  "updatedAt": "2026-08-20T08:00:00Z",
+  "headline": "Ce qui cartonne aujourd'hui en frais",
+  "sourceNote": "Signaux web, réseaux sociaux et presse food — pas les ventes magasin.",
+  "items": [
+    {
+      "id": "pistache-dubai",
+      "name": "Pistache & style Dubaï",
+      "subtitle": "Ingrédient star des créations virales",
+      "rayon": "cremerie",
+      "buzzScore": 96,
+      "heat": "viral",
+      "platforms": ["TikTok", "Instagram", "YouTube"],
+      "why": "La pistache reste l'ingrédient iconique des créations « Dubaï style ». Les créateurs food cumulent des millions de vues ; 52 % des Français disent être influencés par les réseaux sur leur alimentation (OpinionWay × SIAL).",
+      "rayonTip": "Mettre en avant pistache, pâtes à tartiner premium et déclinaisons traiteur / pâtisserie maison près du parcours dessert.",
+      "sources": [
+        { "title": "OpinionWay × SIAL", "url": "https://www.opinion-way.com" },
+        { "title": "Linéaires — influence réseaux", "url": "https://www.lineaires.com" }
+      ],
+      "tags": ["viral", "dessert", "premium"]
+    },
+    {
+      "id": "fibermaxxing",
+      "name": "Légumineuses & fibremaxxing",
+      "subtitle": "La fibre comme hashtag santé 2026",
+      "rayon": "fruitsLegumes",
+      "buzzScore": 91,
+      "heat": "rising",
+      "platforms": ["TikTok", "Instagram"],
+      "why": "Le #fibermaxxing pousse pois chiches, lentilles, haricots et légumes riches en fibres. 1 Français sur 3 s'est tourné vers un produit contenant des légumineuses.",
+      "rayonTip": "Créer un îlot « plein de fibres » : pois chiches frais/secs, carottes, brocolis, et panneau tip meal-prep.",
+      "sources": [
+        { "title": "Tendances food TikTok 2026", "url": "https://fr.accio.com/business/tiktok-food-trends-right-now" }
+      ],
+      "tags": ["santé", "végétal", "meal-prep"]
+    },
+    {
+      "id": "fermentescents",
+      "name": "Fermentés du quotidien",
+      "subtitle": "Kimchi, kéfir, pickles maison",
+      "rayon": "traiteur",
+      "buzzScore": 88,
+      "heat": "rising",
+      "platforms": ["TikTok", "Instagram", "YouTube"],
+      "why": "Fermentation et transformation traditionnelle reviennent comme codes « healthy & intense ». Les contenus DIY pickles / kimchi performent très bien.",
+      "rayonTip": "Valoriser le rayon traiteur fermenté et proposer un kit starter (chou, carotte, vinaigre, épices) en tête de gondole.",
+      "sources": [
+        { "title": "SIAL Insights 2026", "url": "https://aucoeurduchr.fr" }
+      ],
+      "tags": ["fermentation", "gut-health", "DIY"]
+    },
+    {
+      "id": "boeuf-mature",
+      "name": "Viandes maturées & race à viande",
+      "subtitle": "Désirabilité premium boucherie",
+      "rayon": "boucherie",
+      "buzzScore": 84,
+      "heat": "hot",
+      "platforms": ["Instagram", "YouTube"],
+      "why": "Malgré la pression prix, une frange de clients cherche l'intensité gustative : maturées, pièces nobles, storytelling origine. La viande devient un marqueur de désirabilité sur les réseaux.",
+      "rayonTip": "Storytelling origine + photos de coupe ; proposer des pièces à forte perception valeur (entrecôte maturée, rôti fermier).",
+      "sources": [
+        { "title": "Influence food × GMS", "url": "https://www.dupontlewis.com/popcorne/influence-food-grande-distribution-gms/" }
+      ],
+      "tags": ["premium", "origine", "BBQ"]
+    },
+    {
+      "id": "poisson-ligne",
+      "name": "Poissons de ligne & crustacés flash",
+      "subtitle": "Fraîcheur Instagrammable",
+      "rayon": "poissonnerie",
+      "buzzScore": 82,
+      "heat": "hot",
+      "platforms": ["Instagram", "TikTok"],
+      "why": "Les contenus « fishmonger » et plateaux apéro fruits de mer restent très partagés en été / week-end. La fraîcheur visuelle convertit.",
+      "rayonTip": "Mise en scène glace + etiquettes origine Atlantique ; kit apéro crevettes / huîtres pour le week-end.",
+      "sources": [
+        { "title": "Influence food GMS", "url": "https://www.dupontlewis.com/popcorne/influence-food-grande-distribution-gms/" }
+      ],
+      "tags": ["week-end", "apéro", "origine"]
+    },
+    {
+      "id": "matcha-frais",
+      "name": "Matcha & boissons fraîches",
+      "subtitle": "Boisson fonctionnelle nouvelle vague",
+      "rayon": "cremerie",
+      "buzzScore": 80,
+      "heat": "rising",
+      "platforms": ["TikTok", "Instagram"],
+      "why": "Après le boom matcha, les déclinaisons froides (lattés, yaourts, desserts frais) restent un signal fort chez les 18-35 ans.",
+      "rayonTip": "Cross-merch yaourts / boissons végétales / pâtisserie matcha près des rayons snacking frais.",
+      "sources": [
+        { "title": "Dupont Lewis — influence food", "url": "https://www.dupontlewis.com/popcorne/influence-food-grande-distribution-gms/" }
+      ],
+      "tags": ["boisson", "jeune", "fonctionnel"]
+    },
+    {
+      "id": "fruits-rouges",
+      "name": "Fruits rouges & snacks healthy",
+      "subtitle": "Snack fruité ultra photogénique",
+      "rayon": "fruitsLegumes",
+      "buzzScore": 79,
+      "heat": "hot",
+      "platforms": ["Instagram", "TikTok"],
+      "why": "Fraises, myrtilles, framboises restent le cœur des bowls et snacks healthy partagés. Format barquette = achat d'impulsion.",
+      "rayonTip": "Facing barquettes à hauteur des yeux + suggestion bowl petit-déj près du rayon.",
+      "sources": [
+        { "title": "Linéaires", "url": "https://www.lineaires.com" }
+      ],
+      "tags": ["snack", "été", "impulse"]
+    },
+    {
+      "id": "charcut-superieure",
+      "name": "Charcuterie supérieure & planches",
+      "subtitle": "Apéro boards toujours viraux",
+      "rayon": "charcuterie",
+      "buzzScore": 76,
+      "heat": "steady",
+      "platforms": ["Instagram", "TikTok"],
+      "why": "Les planches apéro restent un format réseau social ultra partagé. Qualité perçue (jambon supérieur, rillettes fermières) > volume.",
+      "rayonTip": "Kits planche (jambon + fromage + cornichons) en offre week-end.",
+      "sources": [
+        { "title": "SIAL / réseaux", "url": "https://www.lineaires.com" }
+      ],
+      "tags": ["apéro", "week-end"]
+    },
+    {
+      "id": "baguette-tradition",
+      "name": "Baguette Tradition & viennoiserie craft",
+      "subtitle": "Le local fournée qui performe",
+      "rayon": "boulangerie",
+      "buzzScore": 74,
+      "heat": "steady",
+      "platforms": ["Instagram", "Facebook"],
+      "why": "Les contenus « fournée du jour » et pain craft rassurent et créent du trafic matinal. Le local reste un argument fort en Loire-Atlantique.",
+      "rayonTip": "Afficher l'heure de fournée et une pièce signature (brioche / tarte fruits) visible dès l'entrée frais.",
+      "sources": [
+        { "title": "Comportements alimentaires réseaux", "url": "https://www.lineaires.com" }
+      ],
+      "tags": ["local", "matinée"]
+    },
+    {
+      "id": "vege-coexistence",
+      "name": "Assiettes végétales flexi",
+      "subtitle": "Moins « substitut », plus coexistence",
+      "rayon": "traiteur",
+      "buzzScore": 73,
+      "heat": "rising",
+      "platforms": ["Instagram", "YouTube", "TikTok"],
+      "why": "Le végétal 2026 n'est plus une substitution agressive : coexistence viande / végétal. Les plats traiteur végétaux bien formulés gagnent en rayon.",
+      "rayonTip": "Mettre les plats végétaux au même niveau de désirabilité que les classiques (photo, nom gourmand, pas « sans viande »).",
+      "sources": [
+        { "title": "SIAL Insight 2026", "url": "https://aucoeurduchr.fr/article/conjoncture/le-futur-de-nos-repas-selon-le-sial-2026/" }
+      ],
+      "tags": ["végétal", "flexi", "traiteur"]
+    }
+  ]
+}
