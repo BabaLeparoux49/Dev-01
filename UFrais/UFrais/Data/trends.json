@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T16:00:00Z",
+  "updatedAt": "2026-08-20T17:20:00Z",
   "headline": "Ce qui cartonne aujourd'hui en frais",
   "sourceNote": "Signaux web, réseaux sociaux, presse food et sorties marques nationales — pas les ventes magasin.",
   "items": [
@@ -10,17 +10,31 @@
       "rayon": "cremerie",
       "buzzScore": 96,
       "heat": "viral",
-      "platforms": ["TikTok", "Instagram", "YouTube"],
+      "platforms": [
+        "TikTok",
+        "Instagram",
+        "YouTube"
+      ],
       "why": "La pistache reste l'ingrédient iconique des créations « Dubaï style ». Les créateurs food cumulent des millions de vues ; 52 % des Français disent être influencés par les réseaux sur leur alimentation (OpinionWay × SIAL).",
       "rayonTip": "Mettre en avant pistache, pâtes à tartiner premium et déclinaisons traiteur / pâtisserie maison près du parcours dessert.",
       "sources": [
-        { "title": "OpinionWay × SIAL", "url": "https://www.opinion-way.com" },
-        { "title": "Linéaires — influence réseaux", "url": "https://www.lineaires.com" }
+        {
+          "title": "OpinionWay × SIAL",
+          "url": "https://www.opinion-way.com"
+        },
+        {
+          "title": "Linéaires — influence réseaux",
+          "url": "https://www.lineaires.com"
+        }
       ],
-      "tags": ["viral", "dessert", "premium"],
+      "tags": [
+        "viral",
+        "dessert",
+        "premium"
+      ],
       "category": "vogue",
-      "barcode": "3017620422003",
-      "imageURL": "https://images.openfoodfacts.org/images/products/301/762/042/2003/front_en.879.400.jpg"
+      "barcode": "6133414013640",
+      "imageURL": "https://images.openfoodfacts.org/images/products/613/341/401/3640/front_fr.19.400.jpg"
     },
     {
       "id": "fibermaxxing",
@@ -29,16 +43,26 @@
       "rayon": "fruitsLegumes",
       "buzzScore": 91,
       "heat": "rising",
-      "platforms": ["TikTok", "Instagram"],
+      "platforms": [
+        "TikTok",
+        "Instagram"
+      ],
       "why": "Le #fibermaxxing pousse pois chiches, lentilles, haricots et légumes riches en fibres. 1 Français sur 3 s'est tourné vers un produit contenant des légumineuses.",
       "rayonTip": "Créer un îlot « plein de fibres » : pois chiches frais/secs, carottes, brocolis, et panneau tip meal-prep.",
       "sources": [
-        { "title": "Tendances food TikTok 2026", "url": "https://fr.accio.com/business/tiktok-food-trends-right-now" }
+        {
+          "title": "Tendances food TikTok 2026",
+          "url": "https://fr.accio.com/business/tiktok-food-trends-right-now"
+        }
       ],
-      "tags": ["santé", "végétal", "meal-prep"],
+      "tags": [
+        "santé",
+        "végétal",
+        "meal-prep"
+      ],
       "category": "vogue",
-      "barcode": "3083681128512",
-      "imageURL": "https://images.openfoodfacts.org/images/products/308/368/112/8512/front_fr.29.400.jpg"
+      "barcode": "3760020508593",
+      "imageURL": "https://images.openfoodfacts.org/images/products/376/002/050/8593/front_fr.73.400.jpg"
     },
     {
       "id": "fermentescents",
@@ -47,16 +71,27 @@
       "rayon": "traiteur",
       "buzzScore": 88,
       "heat": "rising",
-      "platforms": ["TikTok", "Instagram", "YouTube"],
+      "platforms": [
+        "TikTok",
+        "Instagram",
+        "YouTube"
+      ],
       "why": "Fermentation et transformation traditionnelle reviennent comme codes « healthy & intense ». Les contenus DIY pickles / kimchi performent très bien.",
       "rayonTip": "Valoriser le rayon traiteur fermenté et proposer un kit starter (chou, carotte, vinaigre, épices) en tête de gondole.",
       "sources": [
-        { "title": "SIAL Insights 2026", "url": "https://aucoeurduchr.fr" }
+        {
+          "title": "SIAL Insights 2026",
+          "url": "https://aucoeurduchr.fr"
+        }
       ],
-      "tags": ["fermentation", "gut-health", "DIY"],
+      "tags": [
+        "fermentation",
+        "gut-health",
+        "DIY"
+      ],
       "category": "vogue",
-      "barcode": "3329770073265",
-      "imageURL": "https://images.openfoodfacts.org/images/products/332/977/007/3265/front_fr.74.400.jpg"
+      "barcode": "8712566246496",
+      "imageURL": "https://images.openfoodfacts.org/images/products/871/256/624/6496/front_fr.140.400.jpg"
     },
     {
       "id": "boeuf-mature",
@@ -65,13 +100,23 @@
       "rayon": "boucherie",
       "buzzScore": 84,
       "heat": "hot",
-      "platforms": ["Instagram", "YouTube"],
+      "platforms": [
+        "Instagram",
+        "YouTube"
+      ],
       "why": "Malgré la pression prix, une frange de clients cherche l'intensité gustative : maturées, pièces nobles, storytelling origine. La viande devient un marqueur de désirabilité sur les réseaux.",
       "rayonTip": "Storytelling origine + photos de coupe ; proposer des pièces à forte perception valeur (entrecôte maturée, rôti fermier).",
       "sources": [
-        { "title": "Influence food × GMS", "url": "https://www.dupontlewis.com/popcorne/influence-food-grande-distribution-gms/" }
+        {
+          "title": "Influence food × GMS",
+          "url": "https://www.dupontlewis.com/popcorne/influence-food-grande-distribution-gms/"
+        }
       ],
-      "tags": ["premium", "origine", "BBQ"],
+      "tags": [
+        "premium",
+        "origine",
+        "BBQ"
+      ],
       "category": "vogue",
       "barcode": "4056489137832",
       "imageURL": "https://images.openfoodfacts.org/images/products/405/648/913/7832/front_fr.3.400.jpg"
@@ -83,13 +128,23 @@
       "rayon": "poissonnerie",
       "buzzScore": 82,
       "heat": "hot",
-      "platforms": ["Instagram", "TikTok"],
+      "platforms": [
+        "Instagram",
+        "TikTok"
+      ],
       "why": "Les contenus « fishmonger » et plateaux apéro fruits de mer restent très partagés en été / week-end. La fraîcheur visuelle convertit.",
       "rayonTip": "Mise en scène glace + etiquettes origine Atlantique ; kit apéro crevettes / huîtres pour le week-end.",
       "sources": [
-        { "title": "Influence food GMS", "url": "https://www.dupontlewis.com/popcorne/influence-food-grande-distribution-gms/" }
+        {
+          "title": "Influence food GMS",
+          "url": "https://www.dupontlewis.com/popcorne/influence-food-grande-distribution-gms/"
+        }
       ],
-      "tags": ["week-end", "apéro", "origine"],
+      "tags": [
+        "week-end",
+        "apéro",
+        "origine"
+      ],
       "category": "vogue",
       "barcode": "3560070393763",
       "imageURL": "https://images.openfoodfacts.org/images/products/356/007/039/3763/front_fr.67.400.jpg"
@@ -101,16 +156,26 @@
       "rayon": "cremerie",
       "buzzScore": 80,
       "heat": "rising",
-      "platforms": ["TikTok", "Instagram"],
+      "platforms": [
+        "TikTok",
+        "Instagram"
+      ],
       "why": "Après le boom matcha, les déclinaisons froides (lattés, yaourts, desserts frais) restent un signal fort chez les 18-35 ans.",
       "rayonTip": "Cross-merch yaourts / boissons végétales / pâtisserie matcha près des rayons snacking frais.",
       "sources": [
-        { "title": "Dupont Lewis — influence food", "url": "https://www.dupontlewis.com/popcorne/influence-food-grande-distribution-gms/" }
+        {
+          "title": "Dupont Lewis — influence food",
+          "url": "https://www.dupontlewis.com/popcorne/influence-food-grande-distribution-gms/"
+        }
       ],
-      "tags": ["boisson", "jeune", "fonctionnel"],
+      "tags": [
+        "boisson",
+        "jeune",
+        "fonctionnel"
+      ],
       "category": "vogue",
-      "barcode": "3033710065967",
-      "imageURL": "https://images.openfoodfacts.org/images/products/303/371/006/5967/front_en.472.400.jpg"
+      "barcode": "3560467100042",
+      "imageURL": "https://images.openfoodfacts.org/images/products/356/046/710/0042/front_fr.20.400.jpg"
     },
     {
       "id": "fruits-rouges",
@@ -119,13 +184,23 @@
       "rayon": "fruitsLegumes",
       "buzzScore": 79,
       "heat": "hot",
-      "platforms": ["Instagram", "TikTok"],
+      "platforms": [
+        "Instagram",
+        "TikTok"
+      ],
       "why": "Fraises, myrtilles, framboises restent le cœur des bowls et snacks healthy partagés. Format barquette = achat d'impulsion.",
       "rayonTip": "Facing barquettes à hauteur des yeux + suggestion bowl petit-déj près du rayon.",
       "sources": [
-        { "title": "Linéaires", "url": "https://www.lineaires.com" }
+        {
+          "title": "Linéaires",
+          "url": "https://www.lineaires.com"
+        }
       ],
-      "tags": ["snack", "été", "impulse"],
+      "tags": [
+        "snack",
+        "été",
+        "impulse"
+      ],
       "category": "vogue",
       "barcode": "3608580789758",
       "imageURL": "https://images.openfoodfacts.org/images/products/360/858/078/9758/front_fr.80.400.jpg"
@@ -137,13 +212,22 @@
       "rayon": "charcuterie",
       "buzzScore": 76,
       "heat": "steady",
-      "platforms": ["Instagram", "TikTok"],
+      "platforms": [
+        "Instagram",
+        "TikTok"
+      ],
       "why": "Les planches apéro restent un format réseau social ultra partagé. Qualité perçue (jambon supérieur, rillettes fermières) > volume.",
       "rayonTip": "Kits planche (jambon + fromage + cornichons) en offre week-end.",
       "sources": [
-        { "title": "SIAL / réseaux", "url": "https://www.lineaires.com" }
+        {
+          "title": "SIAL / réseaux",
+          "url": "https://www.lineaires.com"
+        }
       ],
-      "tags": ["apéro", "week-end"],
+      "tags": [
+        "apéro",
+        "week-end"
+      ],
       "category": "vogue",
       "barcode": "3154230809869",
       "imageURL": "https://images.openfoodfacts.org/images/products/315/423/080/9869/front_fr.210.400.jpg"
@@ -155,16 +239,25 @@
       "rayon": "boulangerie",
       "buzzScore": 74,
       "heat": "steady",
-      "platforms": ["Instagram", "Facebook"],
+      "platforms": [
+        "Instagram",
+        "Facebook"
+      ],
       "why": "Les contenus « fournée du jour » et pain craft rassurent et créent du trafic matinal. Le local reste un argument fort en Loire-Atlantique.",
       "rayonTip": "Afficher l'heure de fournée et une pièce signature (brioche / tarte fruits) visible dès l'entrée frais.",
       "sources": [
-        { "title": "Comportements alimentaires réseaux", "url": "https://www.lineaires.com" }
+        {
+          "title": "Comportements alimentaires réseaux",
+          "url": "https://www.lineaires.com"
+        }
       ],
-      "tags": ["local", "matinée"],
+      "tags": [
+        "local",
+        "matinée"
+      ],
       "category": "vogue",
-      "barcode": "3240931548111",
-      "imageURL": "https://images.openfoodfacts.org/images/products/324/093/154/8111/front_fr.97.400.jpg"
+      "barcode": "3256540000698",
+      "imageURL": "https://images.openfoodfacts.org/images/products/325/654/000/0698/front_fr.201.400.jpg"
     },
     {
       "id": "vege-coexistence",
@@ -173,13 +266,24 @@
       "rayon": "traiteur",
       "buzzScore": 73,
       "heat": "rising",
-      "platforms": ["Instagram", "YouTube", "TikTok"],
+      "platforms": [
+        "Instagram",
+        "YouTube",
+        "TikTok"
+      ],
       "why": "Le végétal 2026 n'est plus une substitution agressive : coexistence viande / végétal. Les plats traiteur végétaux bien formulés gagnent en rayon.",
       "rayonTip": "Mettre les plats végétaux au même niveau de désirabilité que les classiques (photo, nom gourmand, pas « sans viande »).",
       "sources": [
-        { "title": "SIAL Insight 2026", "url": "https://aucoeurduchr.fr/article/conjoncture/le-futur-de-nos-repas-selon-le-sial-2026/" }
+        {
+          "title": "SIAL Insight 2026",
+          "url": "https://aucoeurduchr.fr/article/conjoncture/le-futur-de-nos-repas-selon-le-sial-2026/"
+        }
       ],
-      "tags": ["végétal", "flexi", "traiteur"],
+      "tags": [
+        "végétal",
+        "flexi",
+        "traiteur"
+      ],
       "category": "vogue",
       "barcode": "5400101258037",
       "imageURL": "https://images.openfoodfacts.org/images/products/540/010/125/8037/front_fr.15.400.jpg"
@@ -191,13 +295,23 @@
       "rayon": "cremerie",
       "buzzScore": 92,
       "heat": "hot",
-      "platforms": ["Linéaire", "Marque nationale"],
+      "platforms": [
+        "Linéaire",
+        "Marque nationale"
+      ],
       "why": "Référence dessert familiale : face avant très reconnaissable, rotation forte en crèmerie. À surveiller pour facing, promo et proximité des yaourts / desserts premium.",
       "rayonTip": "Facing à hauteur des yeux + facing second pack (vanille / noir) pour créer un bloc marque La Laitière.",
       "sources": [
-        { "title": "Open Food Facts", "url": "https://world.openfoodfacts.org/product/3023290076699" }
+        {
+          "title": "Open Food Facts",
+          "url": "https://world.openfoodfacts.org/product/3023290076699"
+        }
       ],
-      "tags": ["nouveauté", "dessert", "marque-nationale"],
+      "tags": [
+        "nouveauté",
+        "dessert",
+        "marque-nationale"
+      ],
       "category": "nouveaute",
       "barcode": "3023290076699",
       "imageURL": "https://images.openfoodfacts.org/images/products/302/329/007/6699/front_en.13.400.jpg"
@@ -209,13 +323,23 @@
       "rayon": "cremerie",
       "buzzScore": 88,
       "heat": "rising",
-      "platforms": ["Linéaire", "Marque nationale"],
+      "platforms": [
+        "Linéaire",
+        "Marque nationale"
+      ],
       "why": "Déclinaison premium de la marque : bon relais d’impulsion à côté des mousses classiques et des desserts « moment plaisir ».",
       "rayonTip": "Associer en tête de gondole dessert avec un panneau « plaisir du soir ».",
       "sources": [
-        { "title": "Open Food Facts", "url": "https://world.openfoodfacts.org/product/3023290009086" }
+        {
+          "title": "Open Food Facts",
+          "url": "https://world.openfoodfacts.org/product/3023290009086"
+        }
       ],
-      "tags": ["nouveauté", "dessert", "premium"],
+      "tags": [
+        "nouveauté",
+        "dessert",
+        "premium"
+      ],
       "category": "nouveaute",
       "barcode": "3023290009086",
       "imageURL": "https://images.openfoodfacts.org/images/products/302/329/000/9086/front_fr.8.400.jpg"
@@ -227,13 +351,23 @@
       "rayon": "cremerie",
       "buzzScore": 85,
       "heat": "steady",
-      "platforms": ["Linéaire", "Marque nationale"],
+      "platforms": [
+        "Linéaire",
+        "Marque nationale"
+      ],
       "why": "Produit lambda mais ultra connu : repère prix / qualité pour le client. Utile pour comparer MDD vs nationale et soigner le facing beurre.",
       "rayonTip": "Aligner plaquette nationale vs U / MDD côte à côte pour rendre l’écart prix lisible.",
       "sources": [
-        { "title": "Open Food Facts", "url": "https://world.openfoodfacts.org/product/3155251205500" }
+        {
+          "title": "Open Food Facts",
+          "url": "https://world.openfoodfacts.org/product/3155251205500"
+        }
       ],
-      "tags": ["nouveauté", "beurre", "marque-nationale"],
+      "tags": [
+        "nouveauté",
+        "beurre",
+        "marque-nationale"
+      ],
       "category": "nouveaute",
       "barcode": "3155251205500",
       "imageURL": "https://images.openfoodfacts.org/images/products/315/525/120/5500/front_fr.227.400.jpg"
@@ -245,13 +379,23 @@
       "rayon": "cremerie",
       "buzzScore": 84,
       "heat": "steady",
-      "platforms": ["Linéaire", "Marque nationale"],
+      "platforms": [
+        "Linéaire",
+        "Marque nationale"
+      ],
       "why": "Référence cuisine du quotidien. Forte notoriété : bon produit « ancre » pour animer les recettes du week-end en tête de rayon.",
       "rayonTip": "Cross-merch avec champignons, lardons et panneau « sauce minute ».",
       "sources": [
-        { "title": "Open Food Facts", "url": "https://world.openfoodfacts.org/product/3451790439353" }
+        {
+          "title": "Open Food Facts",
+          "url": "https://world.openfoodfacts.org/product/3451790439353"
+        }
       ],
-      "tags": ["nouveauté", "crème", "cuisine"],
+      "tags": [
+        "nouveauté",
+        "crème",
+        "cuisine"
+      ],
       "category": "nouveaute",
       "barcode": "3451790439353",
       "imageURL": "https://images.openfoodfacts.org/images/products/345/179/043/9353/front_en.87.400.jpg"
@@ -263,13 +407,23 @@
       "rayon": "traiteur",
       "buzzScore": 86,
       "heat": "hot",
-      "platforms": ["Linéaire", "Marque nationale"],
+      "platforms": [
+        "Linéaire",
+        "Marque nationale"
+      ],
       "why": "Produit frais ultra connu, format pratique. Fort potentiel d’impulsion repas du soir à côté des sauces et fromages râpés.",
       "rayonTip": "Kit « 10 min chrono : gnocchi + sauce + fromage » en gondole fraîche.",
       "sources": [
-        { "title": "Open Food Facts", "url": "https://world.openfoodfacts.org/product/3240931548111" }
+        {
+          "title": "Open Food Facts",
+          "url": "https://world.openfoodfacts.org/product/3240931548111"
+        }
       ],
-      "tags": ["nouveauté", "pâtes", "repas"],
+      "tags": [
+        "nouveauté",
+        "pâtes",
+        "repas"
+      ],
       "category": "nouveaute",
       "barcode": "3240931548111",
       "imageURL": "https://images.openfoodfacts.org/images/products/324/093/154/8111/front_fr.97.400.jpg"
@@ -281,13 +435,23 @@
       "rayon": "charcuterie",
       "buzzScore": 83,
       "heat": "steady",
-      "platforms": ["Linéaire", "Marque nationale"],
+      "platforms": [
+        "Linéaire",
+        "Marque nationale"
+      ],
       "why": "Marque très lisible en LS : argument santé (-25 % sel, sans nitrite selon références) qui rassure les familles.",
       "rayonTip": "Mettre le packaging face avant bien visible ; comparer avec l’offre U en prix / grammage.",
       "sources": [
-        { "title": "Open Food Facts", "url": "https://world.openfoodfacts.org/product/3302740047404" }
+        {
+          "title": "Open Food Facts",
+          "url": "https://world.openfoodfacts.org/product/3302740047404"
+        }
       ],
-      "tags": ["nouveauté", "jambon", "famille"],
+      "tags": [
+        "nouveauté",
+        "jambon",
+        "famille"
+      ],
       "category": "nouveaute",
       "barcode": "3302740047404",
       "imageURL": "https://images.openfoodfacts.org/images/products/330/274/004/7404/front_en.576.400.jpg"
@@ -299,13 +463,23 @@
       "rayon": "cremerie",
       "buzzScore": 87,
       "heat": "rising",
-      "platforms": ["Linéaire", "Marque nationale"],
+      "platforms": [
+        "Linéaire",
+        "Marque nationale"
+      ],
       "why": "Le skyr reste un moteur de croissance yaourts. Yoplait apporte la notoriété ; bon produit pour animer le mur frais « protéines ».",
       "rayonTip": "Bloc « protéines du matin » : skyr + fruits rouges + granola.",
       "sources": [
-        { "title": "Open Food Facts", "url": "https://world.openfoodfacts.org/product/3329770073265" }
+        {
+          "title": "Open Food Facts",
+          "url": "https://world.openfoodfacts.org/product/3329770073265"
+        }
       ],
-      "tags": ["nouveauté", "skyr", "protéines"],
+      "tags": [
+        "nouveauté",
+        "skyr",
+        "protéines"
+      ],
       "category": "nouveaute",
       "barcode": "3329770073265",
       "imageURL": "https://images.openfoodfacts.org/images/products/332/977/007/3265/front_fr.74.400.jpg"
@@ -317,13 +491,23 @@
       "rayon": "fruitsLegumes",
       "buzzScore": 80,
       "heat": "steady",
-      "platforms": ["Linéaire", "Marque nationale"],
+      "platforms": [
+        "Linéaire",
+        "Marque nationale"
+      ],
       "why": "Produit du quotidien très connu des familles. Utile pour le parcours enfant / goûter et le facing gourdes / coupelles.",
       "rayonTip": "Proximité fruits frais + suggestion « goûter équilibré ».",
       "sources": [
-        { "title": "Open Food Facts", "url": "https://world.openfoodfacts.org/product/3608580789758" }
+        {
+          "title": "Open Food Facts",
+          "url": "https://world.openfoodfacts.org/product/3608580789758"
+        }
       ],
-      "tags": ["nouveauté", "compote", "famille"],
+      "tags": [
+        "nouveauté",
+        "compote",
+        "famille"
+      ],
       "category": "nouveaute",
       "barcode": "3608580789758",
       "imageURL": "https://images.openfoodfacts.org/images/products/360/858/078/9758/front_fr.80.400.jpg"
@@ -335,13 +519,23 @@
       "rayon": "fruitsLegumes",
       "buzzScore": 78,
       "heat": "steady",
-      "platforms": ["Linéaire", "Marque nationale"],
+      "platforms": [
+        "Linéaire",
+        "Marque nationale"
+      ],
       "why": "Référence légumes ultra connue : bon repère pour le client et pour comparer l’offre conserve / frais / MDD.",
       "rayonTip": "Relier au rayon frais (carottes, petits pois) avec un panneau « même geste, version fraîche ».",
       "sources": [
-        { "title": "Open Food Facts", "url": "https://world.openfoodfacts.org/product/3083681128512" }
+        {
+          "title": "Open Food Facts",
+          "url": "https://world.openfoodfacts.org/product/3083681128512"
+        }
       ],
-      "tags": ["nouveauté", "légumes", "marque-nationale"],
+      "tags": [
+        "nouveauté",
+        "légumes",
+        "marque-nationale"
+      ],
       "category": "nouveaute",
       "barcode": "3083681128512",
       "imageURL": "https://images.openfoodfacts.org/images/products/308/368/112/8512/front_fr.29.400.jpg"
@@ -353,13 +547,23 @@
       "rayon": "cremerie",
       "buzzScore": 76,
       "heat": "steady",
-      "platforms": ["Linéaire", "Marque nationale"],
+      "platforms": [
+        "Linéaire",
+        "Marque nationale"
+      ],
       "why": "Marque historique du petit-déjeuner. Produit « lambda » mais très parlant pour le client — idéal pour animer le mur beurre / MGV.",
       "rayonTip": "Facing clair nationale vs bio / MDD ; message Oméga 3 lisible.",
       "sources": [
-        { "title": "Open Food Facts", "url": "https://world.openfoodfacts.org/product/3366321051983" }
+        {
+          "title": "Open Food Facts",
+          "url": "https://world.openfoodfacts.org/product/3366321051983"
+        }
       ],
-      "tags": ["nouveauté", "petit-déj", "marque-nationale"],
+      "tags": [
+        "nouveauté",
+        "petit-déj",
+        "marque-nationale"
+      ],
       "category": "nouveaute",
       "barcode": "3366321051983",
       "imageURL": "https://images.openfoodfacts.org/images/products/336/632/105/1983/front_fr.132.400.jpg"
