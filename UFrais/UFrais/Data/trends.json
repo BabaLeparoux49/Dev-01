@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-27T16:09:23Z",
-  "headline": "Ce qui cartonne aujourd'hui en frais · 27/08/2026",
+  "updatedAt": "2026-08-28T17:10:43Z",
+  "headline": "Ce qui cartonne aujourd'hui en frais · 28/08/2026",
   "sourceNote": "Signaux web, réseaux sociaux, presse food et sorties marques nationales — pas les ventes magasin. Actualisation quotidienne.",
   "items": [
     {
@@ -41,7 +41,7 @@
       "name": "Légumineuses & fibremaxxing",
       "subtitle": "La fibre comme hashtag santé 2026",
       "rayon": "fruitsLegumes",
-      "buzzScore": 98,
+      "buzzScore": 97,
       "heat": "rising",
       "platforms": [
         "TikTok",
@@ -69,7 +69,7 @@
       "name": "Fermentés du quotidien",
       "subtitle": "Kimchi, kéfir, pickles maison",
       "rayon": "traiteur",
-      "buzzScore": 92,
+      "buzzScore": 94,
       "heat": "rising",
       "platforms": [
         "TikTok",
@@ -98,7 +98,7 @@
       "name": "Viandes maturées & race à viande",
       "subtitle": "Désirabilité premium boucherie",
       "rayon": "boucherie",
-      "buzzScore": 92,
+      "buzzScore": 95,
       "heat": "hot",
       "platforms": [
         "Instagram",
@@ -154,7 +154,7 @@
       "name": "Matcha & boissons fraîches",
       "subtitle": "Boisson fonctionnelle nouvelle vague",
       "rayon": "cremerie",
-      "buzzScore": 91,
+      "buzzScore": 89,
       "heat": "rising",
       "platforms": [
         "TikTok",
@@ -182,7 +182,7 @@
       "name": "Fruits rouges & snacks healthy",
       "subtitle": "Snack fruité ultra photogénique",
       "rayon": "fruitsLegumes",
-      "buzzScore": 90,
+      "buzzScore": 87,
       "heat": "hot",
       "platforms": [
         "Instagram",
@@ -210,7 +210,7 @@
       "name": "Charcuterie supérieure & planches",
       "subtitle": "Apéro boards toujours viraux",
       "rayon": "charcuterie",
-      "buzzScore": 83,
+      "buzzScore": 84,
       "heat": "steady",
       "platforms": [
         "Instagram",
@@ -237,7 +237,7 @@
       "name": "Baguette Tradition & viennoiserie craft",
       "subtitle": "Le local fournée qui performe",
       "rayon": "boulangerie",
-      "buzzScore": 71,
+      "buzzScore": 70,
       "heat": "steady",
       "platforms": [
         "Instagram",
@@ -264,7 +264,7 @@
       "name": "Assiettes végétales flexi",
       "subtitle": "Moins « substitut », plus coexistence",
       "rayon": "traiteur",
-      "buzzScore": 65,
+      "buzzScore": 67,
       "heat": "rising",
       "platforms": [
         "Instagram",
@@ -293,7 +293,7 @@
       "name": "Mousse au chocolat La Laitière",
       "subtitle": "Nestlé — dessert ultra connu en rayon",
       "rayon": "cremerie",
-      "buzzScore": 86,
+      "buzzScore": 89,
       "heat": "hot",
       "platforms": [
         "Linéaire",
@@ -349,7 +349,7 @@
       "name": "Beurre doux gastronomique Président",
       "subtitle": "Marque nationale — beurrerie",
       "rayon": "cremerie",
-      "buzzScore": 76,
+      "buzzScore": 74,
       "heat": "steady",
       "platforms": [
         "Linéaire",
@@ -377,7 +377,7 @@
       "name": "Crème fraîche épaisse Elle & Vire",
       "subtitle": "Savencia — indispensable cuisine",
       "rayon": "cremerie",
-      "buzzScore": 78,
+      "buzzScore": 79,
       "heat": "steady",
       "platforms": [
         "Linéaire",
@@ -405,7 +405,7 @@
       "name": "Gnocchi à poêler Lustucru",
       "subtitle": "Pâtes fraîches — rotation rapide",
       "rayon": "traiteur",
-      "buzzScore": 89,
+      "buzzScore": 88,
       "heat": "hot",
       "platforms": [
         "Linéaire",
@@ -433,7 +433,7 @@
       "name": "Jambon Le Supérieur Fleury Michon",
       "subtitle": "Charcuterie nationale -25 % sel",
       "rayon": "charcuterie",
-      "buzzScore": 92,
+      "buzzScore": 90,
       "heat": "steady",
       "platforms": [
         "Linéaire",
@@ -461,7 +461,7 @@
       "name": "Skyr nature Yoplait",
       "subtitle": "Yaourt protéiné — marque connue",
       "rayon": "cremerie",
-      "buzzScore": 98,
+      "buzzScore": 99,
       "heat": "rising",
       "platforms": [
         "Linéaire",
@@ -489,7 +489,7 @@
       "name": "Compote pomme nature Andros",
       "subtitle": "Fruit transformé — classique rayon",
       "rayon": "fruitsLegumes",
-      "buzzScore": 87,
+      "buzzScore": 86,
       "heat": "steady",
       "platforms": [
         "Linéaire",
@@ -517,7 +517,7 @@
       "name": "Pois carottes Bonduelle",
       "subtitle": "Légumes — marque nationale",
       "rayon": "fruitsLegumes",
-      "buzzScore": 82,
+      "buzzScore": 84,
       "heat": "steady",
       "platforms": [
         "Linéaire",
@@ -545,7 +545,7 @@
       "name": "St Hubert Oméga 3 Doux",
       "subtitle": "Matière grasse tartinable nationale",
       "rayon": "cremerie",
-      "buzzScore": 84,
+      "buzzScore": 87,
       "heat": "steady",
       "platforms": [
         "Linéaire",
