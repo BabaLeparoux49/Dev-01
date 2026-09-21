@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-20T09:37:12Z",
-  "headline": "Ce qui cartonne aujourd'hui en frais · 20/09/2026",
+  "updatedAt": "2026-09-21T10:26:02Z",
+  "headline": "Ce qui cartonne aujourd'hui en frais · 21/09/2026",
   "sourceNote": "Signaux web, réseaux sociaux, presse food et sorties marques nationales — pas les ventes magasin. Actualisation quotidienne.",
   "items": [
     {
@@ -41,7 +41,7 @@
       "name": "Légumineuses & fibremaxxing",
       "subtitle": "La fibre comme hashtag santé 2026",
       "rayon": "fruitsLegumes",
-      "buzzScore": 93,
+      "buzzScore": 91,
       "heat": "rising",
       "platforms": [
         "TikTok",
@@ -69,7 +69,7 @@
       "name": "Fermentés du quotidien",
       "subtitle": "Kimchi, kéfir, pickles maison",
       "rayon": "traiteur",
-      "buzzScore": 88,
+      "buzzScore": 85,
       "heat": "rising",
       "platforms": [
         "TikTok",
@@ -98,7 +98,7 @@
       "name": "Viandes maturées & race à viande",
       "subtitle": "Désirabilité premium boucherie",
       "rayon": "boucherie",
-      "buzzScore": 89,
+      "buzzScore": 86,
       "heat": "hot",
       "platforms": [
         "Instagram",
@@ -154,7 +154,7 @@
       "name": "Matcha & boissons fraîches",
       "subtitle": "Boisson fonctionnelle nouvelle vague",
       "rayon": "cremerie",
-      "buzzScore": 96,
+      "buzzScore": 99,
       "heat": "rising",
       "platforms": [
         "TikTok",
@@ -210,7 +210,7 @@
       "name": "Charcuterie supérieure & planches",
       "subtitle": "Apéro boards toujours viraux",
       "rayon": "charcuterie",
-      "buzzScore": 88,
+      "buzzScore": 90,
       "heat": "steady",
       "platforms": [
         "Instagram",
@@ -237,7 +237,7 @@
       "name": "Baguette Tradition & viennoiserie craft",
       "subtitle": "Le local fournée qui performe",
       "rayon": "boulangerie",
-      "buzzScore": 89,
+      "buzzScore": 92,
       "heat": "steady",
       "platforms": [
         "Instagram",
@@ -293,7 +293,7 @@
       "name": "Mousse au chocolat La Laitière",
       "subtitle": "Nestlé — dessert ultra connu en rayon",
       "rayon": "cremerie",
-      "buzzScore": 98,
+      "buzzScore": 96,
       "heat": "hot",
       "platforms": [
         "Linéaire",
@@ -321,7 +321,7 @@
       "name": "Secret de Mousse Chocolat Noir",
       "subtitle": "La Laitière — format gourmand",
       "rayon": "cremerie",
-      "buzzScore": 97,
+      "buzzScore": 98,
       "heat": "rising",
       "platforms": [
         "Linéaire",
@@ -349,7 +349,7 @@
       "name": "Beurre doux gastronomique Président",
       "subtitle": "Marque nationale — beurrerie",
       "rayon": "cremerie",
-      "buzzScore": 80,
+      "buzzScore": 79,
       "heat": "steady",
       "platforms": [
         "Linéaire",
@@ -377,7 +377,7 @@
       "name": "Crème fraîche épaisse Elle & Vire",
       "subtitle": "Savencia — indispensable cuisine",
       "rayon": "cremerie",
-      "buzzScore": 94,
+      "buzzScore": 96,
       "heat": "steady",
       "platforms": [
         "Linéaire",
@@ -489,7 +489,7 @@
       "name": "Compote pomme nature Andros",
       "subtitle": "Fruit transformé — classique rayon",
       "rayon": "fruitsLegumes",
-      "buzzScore": 93,
+      "buzzScore": 91,
       "heat": "steady",
       "platforms": [
         "Linéaire",
@@ -517,7 +517,7 @@
       "name": "Pois carottes Bonduelle",
       "subtitle": "Légumes — marque nationale",
       "rayon": "fruitsLegumes",
-      "buzzScore": 78,
+      "buzzScore": 75,
       "heat": "steady",
       "platforms": [
         "Linéaire",
@@ -545,7 +545,7 @@
       "name": "St Hubert Oméga 3 Doux",
       "subtitle": "Matière grasse tartinable nationale",
       "rayon": "cremerie",
-      "buzzScore": 89,
+      "buzzScore": 86,
       "heat": "steady",
       "platforms": [
         "Linéaire",
