@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-16T09:31:48Z",
-  "headline": "Ce qui cartonne aujourd'hui en frais · 16/10/2026",
+  "updatedAt": "2026-10-17T09:02:33Z",
+  "headline": "Ce qui cartonne aujourd'hui en frais · 17/10/2026",
   "sourceNote": "Signaux web, réseaux sociaux, presse food et sorties marques nationales — pas les ventes magasin. Actualisation quotidienne.",
   "items": [
     {
@@ -126,7 +126,7 @@
       "name": "Poissons de ligne & crustacés flash",
       "subtitle": "Fraîcheur Instagrammable",
       "rayon": "poissonnerie",
-      "buzzScore": 96,
+      "buzzScore": 94,
       "heat": "hot",
       "platforms": [
         "Instagram",
@@ -182,7 +182,7 @@
       "name": "Fruits rouges & snacks healthy",
       "subtitle": "Snack fruité ultra photogénique",
       "rayon": "fruitsLegumes",
-      "buzzScore": 81,
+      "buzzScore": 80,
       "heat": "hot",
       "platforms": [
         "Instagram",
@@ -237,7 +237,7 @@
       "name": "Baguette Tradition & viennoiserie craft",
       "subtitle": "Le local fournée qui performe",
       "rayon": "boulangerie",
-      "buzzScore": 95,
+      "buzzScore": 98,
       "heat": "steady",
       "platforms": [
         "Instagram",
@@ -293,7 +293,7 @@
       "name": "Mousse au chocolat La Laitière",
       "subtitle": "Nestlé — dessert ultra connu en rayon",
       "rayon": "cremerie",
-      "buzzScore": 94,
+      "buzzScore": 96,
       "heat": "hot",
       "platforms": [
         "Linéaire",
@@ -321,7 +321,7 @@
       "name": "Secret de Mousse Chocolat Noir",
       "subtitle": "La Laitière — format gourmand",
       "rayon": "cremerie",
-      "buzzScore": 96,
+      "buzzScore": 95,
       "heat": "rising",
       "platforms": [
         "Linéaire",
@@ -377,7 +377,7 @@
       "name": "Crème fraîche épaisse Elle & Vire",
       "subtitle": "Savencia — indispensable cuisine",
       "rayon": "cremerie",
-      "buzzScore": 99,
+      "buzzScore": 98,
       "heat": "steady",
       "platforms": [
         "Linéaire",
@@ -433,7 +433,7 @@
       "name": "Jambon Le Supérieur Fleury Michon",
       "subtitle": "Charcuterie nationale -25 % sel",
       "rayon": "charcuterie",
-      "buzzScore": 94,
+      "buzzScore": 97,
       "heat": "steady",
       "platforms": [
         "Linéaire",
@@ -517,7 +517,7 @@
       "name": "Pois carottes Bonduelle",
       "subtitle": "Légumes — marque nationale",
       "rayon": "fruitsLegumes",
-      "buzzScore": 94,
+      "buzzScore": 98,
       "heat": "steady",
       "platforms": [
         "Linéaire",
