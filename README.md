@@ -1,3 +1,17 @@
+# Workspace
+
+## Libre (budget perso)
+
+App web locale pour saisir dépenses / revenus et recevoir des conseils d’épargne et d’investissement.
+
+```bash
+cd libre && npm install && npm run dev
+```
+
+Voir [libre/README.md](libre/README.md).
+
+---
+
 # U Frais — Super U Ligné
 
 Application iOS pour l’adjoint de direction **produits frais** du Super U de Ligné (44850).
