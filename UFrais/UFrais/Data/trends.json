@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-22T09:51:59Z",
-  "headline": "Ce qui cartonne aujourd'hui en frais · 22/10/2026",
+  "updatedAt": "2026-10-23T09:45:58Z",
+  "headline": "Ce qui cartonne aujourd'hui en frais · 23/10/2026",
   "sourceNote": "Signaux web, réseaux sociaux, presse food et sorties marques nationales — pas les ventes magasin. Actualisation quotidienne.",
   "items": [
     {
@@ -98,7 +98,7 @@
       "name": "Viandes maturées & race à viande",
       "subtitle": "Désirabilité premium boucherie",
       "rayon": "boucherie",
-      "buzzScore": 96,
+      "buzzScore": 99,
       "heat": "hot",
       "platforms": [
         "Instagram",
@@ -126,7 +126,7 @@
       "name": "Poissons de ligne & crustacés flash",
       "subtitle": "Fraîcheur Instagrammable",
       "rayon": "poissonnerie",
-      "buzzScore": 92,
+      "buzzScore": 96,
       "heat": "hot",
       "platforms": [
         "Instagram",
@@ -182,7 +182,7 @@
       "name": "Fruits rouges & snacks healthy",
       "subtitle": "Snack fruité ultra photogénique",
       "rayon": "fruitsLegumes",
-      "buzzScore": 85,
+      "buzzScore": 83,
       "heat": "hot",
       "platforms": [
         "Instagram",
@@ -210,7 +210,7 @@
       "name": "Charcuterie supérieure & planches",
       "subtitle": "Apéro boards toujours viraux",
       "rayon": "charcuterie",
-      "buzzScore": 99,
+      "buzzScore": 96,
       "heat": "steady",
       "platforms": [
         "Instagram",
@@ -237,7 +237,7 @@
       "name": "Baguette Tradition & viennoiserie craft",
       "subtitle": "Le local fournée qui performe",
       "rayon": "boulangerie",
-      "buzzScore": 94,
+      "buzzScore": 91,
       "heat": "steady",
       "platforms": [
         "Instagram",
@@ -264,7 +264,7 @@
       "name": "Assiettes végétales flexi",
       "subtitle": "Moins « substitut », plus coexistence",
       "rayon": "traiteur",
-      "buzzScore": 83,
+      "buzzScore": 84,
       "heat": "rising",
       "platforms": [
         "Instagram",
@@ -293,7 +293,7 @@
       "name": "Mousse au chocolat La Laitière",
       "subtitle": "Nestlé — dessert ultra connu en rayon",
       "rayon": "cremerie",
-      "buzzScore": 99,
+      "buzzScore": 98,
       "heat": "hot",
       "platforms": [
         "Linéaire",
@@ -349,7 +349,7 @@
       "name": "Beurre doux gastronomique Président",
       "subtitle": "Marque nationale — beurrerie",
       "rayon": "cremerie",
-      "buzzScore": 99,
+      "buzzScore": 98,
       "heat": "steady",
       "platforms": [
         "Linéaire",
@@ -377,7 +377,7 @@
       "name": "Crème fraîche épaisse Elle & Vire",
       "subtitle": "Savencia — indispensable cuisine",
       "rayon": "cremerie",
-      "buzzScore": 97,
+      "buzzScore": 95,
       "heat": "steady",
       "platforms": [
         "Linéaire",
@@ -405,7 +405,7 @@
       "name": "Gnocchi à poêler Lustucru",
       "subtitle": "Pâtes fraîches — rotation rapide",
       "rayon": "traiteur",
-      "buzzScore": 95,
+      "buzzScore": 92,
       "heat": "hot",
       "platforms": [
         "Linéaire",
@@ -433,7 +433,7 @@
       "name": "Jambon Le Supérieur Fleury Michon",
       "subtitle": "Charcuterie nationale -25 % sel",
       "rayon": "charcuterie",
-      "buzzScore": 96,
+      "buzzScore": 93,
       "heat": "steady",
       "platforms": [
         "Linéaire",
@@ -545,7 +545,7 @@
       "name": "St Hubert Oméga 3 Doux",
       "subtitle": "Matière grasse tartinable nationale",
       "rayon": "cremerie",
-      "buzzScore": 96,
+      "buzzScore": 99,
       "heat": "steady",
       "platforms": [
         "Linéaire",
