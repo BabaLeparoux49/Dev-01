@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-26T10:47:50Z",
-  "headline": "Ce qui cartonne aujourd'hui en frais · 26/10/2026",
+  "updatedAt": "2026-10-27T10:14:05Z",
+  "headline": "Ce qui cartonne aujourd'hui en frais · 27/10/2026",
   "sourceNote": "Signaux web, réseaux sociaux, presse food et sorties marques nationales — pas les ventes magasin. Actualisation quotidienne.",
   "items": [
     {
@@ -41,7 +41,7 @@
       "name": "Légumineuses & fibremaxxing",
       "subtitle": "La fibre comme hashtag santé 2026",
       "rayon": "fruitsLegumes",
-      "buzzScore": 99,
+      "buzzScore": 97,
       "heat": "rising",
       "platforms": [
         "TikTok",
@@ -154,7 +154,7 @@
       "name": "Matcha & boissons fraîches",
       "subtitle": "Boisson fonctionnelle nouvelle vague",
       "rayon": "cremerie",
-      "buzzScore": 94,
+      "buzzScore": 92,
       "heat": "rising",
       "platforms": [
         "TikTok",
@@ -182,7 +182,7 @@
       "name": "Fruits rouges & snacks healthy",
       "subtitle": "Snack fruité ultra photogénique",
       "rayon": "fruitsLegumes",
-      "buzzScore": 86,
+      "buzzScore": 87,
       "heat": "hot",
       "platforms": [
         "Instagram",
@@ -210,7 +210,7 @@
       "name": "Charcuterie supérieure & planches",
       "subtitle": "Apéro boards toujours viraux",
       "rayon": "charcuterie",
-      "buzzScore": 99,
+      "buzzScore": 98,
       "heat": "steady",
       "platforms": [
         "Instagram",
@@ -237,7 +237,7 @@
       "name": "Baguette Tradition & viennoiserie craft",
       "subtitle": "Le local fournée qui performe",
       "rayon": "boulangerie",
-      "buzzScore": 92,
+      "buzzScore": 94,
       "heat": "steady",
       "platforms": [
         "Instagram",
@@ -264,7 +264,7 @@
       "name": "Assiettes végétales flexi",
       "subtitle": "Moins « substitut », plus coexistence",
       "rayon": "traiteur",
-      "buzzScore": 83,
+      "buzzScore": 86,
       "heat": "rising",
       "platforms": [
         "Instagram",
@@ -293,7 +293,7 @@
       "name": "Mousse au chocolat La Laitière",
       "subtitle": "Nestlé — dessert ultra connu en rayon",
       "rayon": "cremerie",
-      "buzzScore": 96,
+      "buzzScore": 99,
       "heat": "hot",
       "platforms": [
         "Linéaire",
@@ -377,7 +377,7 @@
       "name": "Crème fraîche épaisse Elle & Vire",
       "subtitle": "Savencia — indispensable cuisine",
       "rayon": "cremerie",
-      "buzzScore": 96,
+      "buzzScore": 99,
       "heat": "steady",
       "platforms": [
         "Linéaire",
@@ -405,7 +405,7 @@
       "name": "Gnocchi à poêler Lustucru",
       "subtitle": "Pâtes fraîches — rotation rapide",
       "rayon": "traiteur",
-      "buzzScore": 91,
+      "buzzScore": 95,
       "heat": "hot",
       "platforms": [
         "Linéaire",
@@ -489,7 +489,7 @@
       "name": "Compote pomme nature Andros",
       "subtitle": "Fruit transformé — classique rayon",
       "rayon": "fruitsLegumes",
-      "buzzScore": 99,
+      "buzzScore": 97,
       "heat": "steady",
       "platforms": [
         "Linéaire",
