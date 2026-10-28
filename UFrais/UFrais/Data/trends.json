@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-27T10:14:05Z",
-  "headline": "Ce qui cartonne aujourd'hui en frais · 27/10/2026",
+  "updatedAt": "2026-10-28T11:01:48Z",
+  "headline": "Ce qui cartonne aujourd'hui en frais · 28/10/2026",
   "sourceNote": "Signaux web, réseaux sociaux, presse food et sorties marques nationales — pas les ventes magasin. Actualisation quotidienne.",
   "items": [
     {
@@ -8,7 +8,7 @@
       "name": "Pistache & style Dubaï",
       "subtitle": "Ingrédient star des créations virales",
       "rayon": "cremerie",
-      "buzzScore": 98,
+      "buzzScore": 99,
       "heat": "viral",
       "platforms": [
         "TikTok",
@@ -126,7 +126,7 @@
       "name": "Poissons de ligne & crustacés flash",
       "subtitle": "Fraîcheur Instagrammable",
       "rayon": "poissonnerie",
-      "buzzScore": 98,
+      "buzzScore": 99,
       "heat": "hot",
       "platforms": [
         "Instagram",
@@ -182,7 +182,7 @@
       "name": "Fruits rouges & snacks healthy",
       "subtitle": "Snack fruité ultra photogénique",
       "rayon": "fruitsLegumes",
-      "buzzScore": 87,
+      "buzzScore": 85,
       "heat": "hot",
       "platforms": [
         "Instagram",
@@ -210,7 +210,7 @@
       "name": "Charcuterie supérieure & planches",
       "subtitle": "Apéro boards toujours viraux",
       "rayon": "charcuterie",
-      "buzzScore": 98,
+      "buzzScore": 99,
       "heat": "steady",
       "platforms": [
         "Instagram",
@@ -237,7 +237,7 @@
       "name": "Baguette Tradition & viennoiserie craft",
       "subtitle": "Le local fournée qui performe",
       "rayon": "boulangerie",
-      "buzzScore": 94,
+      "buzzScore": 93,
       "heat": "steady",
       "platforms": [
         "Instagram",
@@ -264,7 +264,7 @@
       "name": "Assiettes végétales flexi",
       "subtitle": "Moins « substitut », plus coexistence",
       "rayon": "traiteur",
-      "buzzScore": 86,
+      "buzzScore": 88,
       "heat": "rising",
       "platforms": [
         "Instagram",
@@ -293,7 +293,7 @@
       "name": "Mousse au chocolat La Laitière",
       "subtitle": "Nestlé — dessert ultra connu en rayon",
       "rayon": "cremerie",
-      "buzzScore": 99,
+      "buzzScore": 98,
       "heat": "hot",
       "platforms": [
         "Linéaire",
@@ -321,7 +321,7 @@
       "name": "Secret de Mousse Chocolat Noir",
       "subtitle": "La Laitière — format gourmand",
       "rayon": "cremerie",
-      "buzzScore": 97,
+      "buzzScore": 95,
       "heat": "rising",
       "platforms": [
         "Linéaire",
@@ -433,7 +433,7 @@
       "name": "Jambon Le Supérieur Fleury Michon",
       "subtitle": "Charcuterie nationale -25 % sel",
       "rayon": "charcuterie",
-      "buzzScore": 95,
+      "buzzScore": 97,
       "heat": "steady",
       "platforms": [
         "Linéaire",
@@ -461,7 +461,7 @@
       "name": "Skyr nature Yoplait",
       "subtitle": "Yaourt protéiné — marque connue",
       "rayon": "cremerie",
-      "buzzScore": 98,
+      "buzzScore": 99,
       "heat": "rising",
       "platforms": [
         "Linéaire",
